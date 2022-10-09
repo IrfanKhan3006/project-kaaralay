@@ -35,7 +35,7 @@ function Login() {
                 className="text-start login-text"
                 style={{ color: "#003666", marginBottom: "10%" }}
               >
-                Log in
+                Log In
               </h1>
               <p className="text-start login-text-1">
                 <span>Welcome </span>
