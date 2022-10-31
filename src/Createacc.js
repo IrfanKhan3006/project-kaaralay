@@ -51,7 +51,7 @@ function Createacc() {
         </Row>
         <div>
           <Link to="/" className="back">
-            <img src={arrow} className="bk-lg" width={"110px"} height="60px" />
+            <img src={arrow} className="bk-lg" width={"150px"} height="90px" />
             
           </Link>
         </div>

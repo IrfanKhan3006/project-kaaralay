@@ -13,7 +13,11 @@ letter-spacing: -0.02em;
 
 color: white
 }
-
+.bk-lg00 {
+  margin-left: 44%;
+  background-color: white;
+  color: white;
+}
 .s-2 {
    text-align: center;
    justify-content: space-between;
@@ -1937,20 +1941,9 @@ border-radius: 10px;
   margin-left: 5%;
 }
 
-
-
-.reset-vec{
-position: absolute;
-left: 34.17%;
-right: 14.5%;
-top: 23.33%;
-bottom: 20.83%;
-
-}
 .btn--2:hover{
   background-color: #003666 !important;
 }
-
 
 .circle{
   position: inherit;
@@ -4483,7 +4476,7 @@ border-radius: 10px;
 position: absolute;
 left: 34.17%;
 right: 14.5%;
-top: 23.33%;
+top: 27%;
 bottom: 20.83%;
 
 }

@@ -105,7 +105,7 @@ function Profiledetails() {
                 aria-describedby="emailHelp"
                 placeholder="Enter PhoneNumber"
                 className="bas-form-enter-1"
-                style={{ marginTop: "10%" }}
+                style={{ marginTop: "0%" }}
               />
             </div>
           </div>
@@ -133,7 +133,7 @@ function Profiledetails() {
                 aria-describedby="emailHelp"
                 placeholder="Skills"
                 className="bas-form-enter-1"
-                style={{ marginTop: "10%" }}
+                style={{ marginTop: "0%" }}
               />
             </div>
             <div
@@ -156,7 +156,7 @@ function Profiledetails() {
                 aria-describedby="emailHelp"
                 placeholder="Source"
                 className="bas-form-enter-1"
-                style={{ marginTop: "10%" }}
+                style={{ marginTop: "0%" }}
               />
             </div>
           </div>
@@ -176,6 +176,7 @@ function Profiledetails() {
               aria-describedby="emailHelp"
               placeholder="Tags"
               className="bas-form-enter-2"
+              style={{width: "95%"}}
             />
           </div>
           <div className="bas-cv">

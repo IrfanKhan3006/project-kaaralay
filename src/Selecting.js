@@ -256,13 +256,9 @@ function Selecting() {
               }}
               className="source"
             >
-              <input
-                type="radio"
-                style={{ position: "absolute", top: "28%", marginLeft: "8%" }}
-              />
               <p
                 style={{
-                  marginLeft: "35%",
+                  marginLeft: "22%",
                   color: "white",
                   marginTop: "15%",
                 }}
@@ -278,18 +274,14 @@ function Selecting() {
               }}
               className="source"
             >
-              <input
-                type="radio"
-                style={{ position: "absolute", top: "28%", marginLeft: "8%" }}
-              />
               <p
                 style={{
-                  marginLeft: "25%",
+                  marginLeft: "17%",
                   color: "#003666",
                   marginTop: "10%",
                 }}
               >
-                sources
+                Sources
               </p>
             </div>
           </div>

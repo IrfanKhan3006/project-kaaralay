@@ -251,7 +251,7 @@ function EmailTemplate() {
               <input type="radio" style={{ marginTop: "-20%" }} />
               <p className="email-p-1" style={{ color: "#003666" }}>
                 <Link
-                  to="/EmailRejection"
+                  to="/EmailOffer"
                   style={{
                     textDecoration: "none",
                     color: "#003666",

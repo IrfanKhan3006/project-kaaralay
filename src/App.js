@@ -56,8 +56,6 @@ function App() {
           <Route path="/Popups" element={<Popups />} />
           <Route path="/Role" element={<Role />} />
           <Route path="/EmailVer" element={<EmailVer />} />
-
-          
           <Route path="/Recrutiment" element={<Recrutiment />} />
           <Route path="/RecrutimentPos" element={<RecrutimentPos />} />
           <Route path="/Publish" element={<Recpublish />} />

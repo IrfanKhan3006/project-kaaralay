@@ -113,6 +113,26 @@
     list-style: none;
     border-style: none;
 }
+.dropdown-item{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  /* Body */
+  
+  color: #455560;
+  margin-left: 0%;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  }
 .rec-sea {
     box-sizing: border-box;
     display: flex;

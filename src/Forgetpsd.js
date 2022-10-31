@@ -35,7 +35,7 @@ function Forgetpsd() {
             </h1>
             <h5 className="psd-2 text-center">
               Your new password must be different from{" "}
-              <span style={{ color: "#E0791B" }}>old </span>password.
+              <span style={{ color: "#E0791B" }}><br />old </span>password.
             </h5>
             <Row>
               <Col>
@@ -81,7 +81,7 @@ function Forgetpsd() {
                     className="button--2"
                     style={{
                       width: "40%",
-                      marginTop: "10%",
+                      marginTop: "5%",
                       marginLeft: "15%",
                     }}
                   >
@@ -91,8 +91,8 @@ function Forgetpsd() {
               </Col>
               <Col sm={2}>
                 <div className="box-psd">
-                  <h4 style={{ marginTop: "8%", color: "#E0791B" }}>
-                    Please use at least
+                  <h4 style={{color: "#E0791B" }}>
+                    <span className="ans">Please use at least</span>
                   </h4>
                 </div>
                 <div className="box-psd-1">

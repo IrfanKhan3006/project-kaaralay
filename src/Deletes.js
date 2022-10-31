@@ -33,7 +33,7 @@ function Deletes() {
                 to="/edits"
                 style={{ textDecoration: "none", color: "white" }}
               >
-                cancel
+                Cancel
               </Link>{" "}
             </button>
           </div>

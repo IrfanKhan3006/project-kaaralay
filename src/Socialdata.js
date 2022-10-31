@@ -262,13 +262,9 @@ function Socialdata() {
               }}
               className="source"
             >
-              <input
-                type="radio"
-                style={{ position: "absolute", top: "28%", marginLeft: "8%" }}
-              />
               <p
                 style={{
-                  marginLeft: "35%",
+                  marginLeft: "25%",
                   color: "#003666",
                   marginTop: "15%",
                 }}
@@ -280,11 +276,7 @@ function Socialdata() {
               style={{ display: "flex", marginLeft: "3%" }}
               className="source"
             >
-              <input
-                type="radio"
-                style={{ position: "absolute", top: "28%", marginLeft: "8%" }}
-              />
-              <p style={{ marginLeft: "25%", marginTop: "10%" }}>sources</p>
+              <p style={{ marginLeft: "17%", marginTop: "10%" }}>Sources</p>
             </div>
           </div>
         </div>{" "}

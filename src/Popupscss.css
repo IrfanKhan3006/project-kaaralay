@@ -51,12 +51,14 @@
   margin: auto;
   width: 50%;
    justify-content: space-between;
-  height: 70vh;
   background-color: #F8F9FB;
   padding: 40px 40px 40px 40px;
   border-radius: 30px;
   overflow: hidden;
    
+}
+input[name="fav_language"] {
+	accent-color: green;
 }
 @media screen and (max-width: 900px) {
   .content{

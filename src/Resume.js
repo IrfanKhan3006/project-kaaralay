@@ -17,7 +17,7 @@ function Resume() {
       <div className="testing-App" style={{ display: style }}>
         <div className="testing-content">
           <p className="testing-p">Upload Cv</p>
-          <p className="testing-2">CV/RESUME</p>
+          <p className="testing-2">CV/RESUME<span className="required-sym"></span></p>
           <hr className="hin" />
           <div className="testing-input">
             <div

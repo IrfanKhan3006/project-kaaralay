@@ -261,6 +261,7 @@ margin-left: 1%;
 .email-input{
     background-color: #F8F9FB;
     width: 98%;
+    outline: none;
     height: 50px;
     border: 0px;
     padding-left: 15px;

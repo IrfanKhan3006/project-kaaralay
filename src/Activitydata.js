@@ -2,6 +2,8 @@ import React from 'react'
 import clock from './images/Rectangle 284.png'
 import {BsArrowCounterclockwise} from 'react-icons/bs'
 import './Activity.css';
+import aaa from './images/aaaa.png';
+
 
 
 function Activitydata() {
@@ -10,9 +12,7 @@ function Activitydata() {
       <div className="eva-1">
         <div className="act-2">
           <div className="act-3" style={{ display: "flex" }}>
-            <BsArrowCounterclockwise
-              style={{ height: "35px", width: "35px", marginTop: "1%" }}
-            />
+            <img src={aaa} style={{ height: "35px", width: "35px", marginTop: "0.5%" }} />
             <div
               style={{
                 display: "flex",
@@ -36,9 +36,8 @@ function Activitydata() {
             </div>
           </div>
           <div className="act-3-1" style={{ display: "flex" }}>
-            <BsArrowCounterclockwise
-              style={{ height: "35px", width: "35px", marginTop: "1%" }}
-            />
+          <img src={aaa} style={{ height: "35px", width: "35px", marginTop: "0.5%" }} />
+
             <div
               style={{
                 display: "flex",
@@ -62,9 +61,8 @@ function Activitydata() {
             </div>
           </div>
           <div className="act-3-1" style={{ display: "flex" }}>
-            <BsArrowCounterclockwise
-              style={{ height: "35px", width: "35px", marginTop: "1%" }}
-            />
+          <img src={aaa} style={{ height: "35px", width: "35px", marginTop: "0.5%" }} />
+
             <div
               style={{
                 display: "flex",
@@ -88,9 +86,8 @@ function Activitydata() {
             </div>
           </div>
           <div className="act-3-1" style={{ display: "flex" }}>
-            <BsArrowCounterclockwise
-              style={{ height: "35px", width: "35px", marginTop: "1%" }}
-            />
+          <img src={aaa} style={{ height: "35px", width: "35px", marginTop: "0.5%" }} />
+
             <div
               style={{
                 display: "flex",
@@ -114,9 +111,8 @@ function Activitydata() {
             </div>
           </div>
           <div className="act-3-1" style={{ display: "flex" }}>
-            <BsArrowCounterclockwise
-              style={{ height: "35px", width: "35px", marginTop: "1%" }}
-            />
+          <img src={aaa} style={{ height: "35px", width: "35px", marginTop: "0.5%" }} />
+
             <div
               style={{
                 display: "flex",

@@ -128,6 +128,7 @@
 .rec-sea {
     box-sizing: border-box;
     display: flex;
+    outline: none;
     flex-direction: row;
     align-items: flex-start;
     width: 100%;

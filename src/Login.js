@@ -53,7 +53,7 @@ function Login() {
                     for="exampleInputEmail1 forg-psd"
                     style={{ marginTop: "6%", fontSize: "20px" }}
                   >
-                    Email address
+                    Email Address
                   </label>
                   <input
                     type="email"

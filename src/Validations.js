@@ -43,7 +43,7 @@ function Validations() {
             isInputNum
           />
           <Link to="/Emailsuc">
-            <button className="sub">submit</button>
+            <button className="sub">Submit</button>
           </Link>
         </Col>
       </Row>
