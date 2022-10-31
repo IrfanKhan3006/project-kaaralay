@@ -29,7 +29,7 @@
 .content{
   margin: auto;
   width: 50%;
-
+  
   height: 70vh;
   background-color: #F8F9FB;
   padding: 40px 40px 40px 40px;
@@ -215,7 +215,7 @@ flex-grow: 1;
   padding:5px 30px;
   font-weight: 500;
   font-size: 17px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 0px;
 }
 .btn--9{
@@ -276,13 +276,11 @@ box-sizing: border-box;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 border-radius: 10px;
-
 }
 .child-1-1{
   position: relative;
   width: 100%;
   margin: auto,
-  
 
 }
 .btn.dropdown-toggle {

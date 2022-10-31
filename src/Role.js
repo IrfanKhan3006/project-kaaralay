@@ -8,7 +8,7 @@ function Role() {
     const [Style, setStyle] = useState("none");
     const [back, setback] = useState("none");
     const [set, notset] = useState(false);
-    const [data,setdata] = useState("Enter Your Roll");
+    const [data,setdata] = useState("select your industry");
 
     const clickbtn = () => {
       setStyle("flex");
@@ -25,19 +25,14 @@ function Role() {
     }
 
     return (
-      <div>
+      <div style={{overflow:'auto'}}>
         <div className="btr" style={{ filter: back }}>
           <img src={dashblur} style={{ height: "100vh", width: "100%" }} />
-          <button
-            style={{ position: "absolute", top: "0%", left: "10%" }}
-            onClick={clickbtn}
-          >
-           Click On
-          </button>
+         
         </div>
-        <div className="App-1" style={{ display: Style }}>
-          <div className="content">
-            <p className="heading" style={{ marginLeft: "10%" }}>
+        <div className="App-1" style={{  marginTop:'5%'}}>
+          <div className="content" >
+            <p className="heading" style={{ marginLeft: "10%", marginTop: "10%" }}>
               What is your <p className="different">Role</p>?
             </p>
             <div
@@ -66,7 +61,7 @@ function Role() {
                 alignItems: "center",
                 marginLeft: "10%",
                 position: "relative",
-                top: "-8%",
+                top: "-13%",
                 width: "80%",
               }}
             >
@@ -89,7 +84,7 @@ function Role() {
               <div
                 class="dropdown-menu"
                 aria-labelledby="dropdownMenuButton"
-                style={{ alignItems: "center", marginLeft: "70%" }}
+                style={{ alignItems: "center", marginLeft: "70%",overflow:'hidden',}}
               >
                 <div
                   style={{ display: "flex", marginLeft: "3%" }}

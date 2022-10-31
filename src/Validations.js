@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import logo from './images/logo 1.png'
 import otpimg from "./images/Enter OTP-pana (1) 1.png";
 import OtpInput from "otp-input-react";
-import './App.css'
+import './Validation.css'
 import Button from 'react-bootstrap/Button';
 import {Link} from 'react-router-dom'
 function Validations() {
@@ -24,12 +24,12 @@ function Validations() {
         </Col>
       </Row>
       <Row>
-        <Col style={{ textAlign: "center" }}>
-          <h1>
+        <Col style={{ textAlign: "center", top: "25px"}}>
+          <h1 className='ot'>
             <span>OTP</span> Verification
           </h1>
           <h6>
-            Enter your verification Code at <span style={{ color: "#E0791B" }}>Email id</span>
+            Enter your verification Code at <span>Email ID</span>
           </h6>
           <p className="ver-code">Verification Code</p>
           <OtpInput
@@ -43,7 +43,7 @@ function Validations() {
             isInputNum
           />
           <Link to="/Emailsuc">
-            <button className="sub">Submit</button>
+            <button className="sub">submit</button>
           </Link>
         </Col>
       </Row>

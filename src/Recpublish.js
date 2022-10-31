@@ -1,34 +1,35 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import circle from './images/Ellipse 63.png'
+import './Recpublish.css';
 
 function Recpublish() {
   return (
-    <div>
-      <div className="publish">
+    <div className='up-back'>
+      <div className="pub">
         <img
           src={circle}
-          style={{ position: "absolute", left: "95%", top: "5%" }}
+          style={{ position: "absolute", left: "97.5%", top: "3%" }}
         />
 
         <img
           src={circle}
-          style={{ position: "absolute", left: "5%", top: "5%" }}
+          style={{ position: "absolute", left: "1%", top: "3%" }}
         />
         <img
           src={circle}
-          style={{ position: "absolute", left: "5%", top: "93%" }}
+          style={{ position: "absolute", left: "1%", top: "94%" }}
         />
         <img
           src={circle}
-          style={{ position: "absolute", left: "95%", top: "93%" }}
+          style={{ position: "absolute", left: "97.5%", top: "94%" }}
         />
         <div className="head-pub">
           <p>Publish Job</p>
         </div>
-        <div className="pub-line"></div>
+        <div className="pu-line"></div>
         <div className="pub-content">
-          <p className="pub-con">
+          <p className="pu-con">
             Your job's status will be "Publish". Only hiring team can edit.
             Candidate can view and apply the job on your career site. Do you
             want to proceed?
@@ -45,7 +46,7 @@ function Recpublish() {
             }}
           >
             <button className="org-btn">
-              <span>Conform</span>
+              <span>Confirm</span>
             </button>
           </Link>
 

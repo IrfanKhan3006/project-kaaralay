@@ -1,6 +1,6 @@
 import React from 'react'
 import {Row,Col} from 'react-bootstrap';
-import './App.css';
+
 import person from './images/Update-pana 1.png';
 
 

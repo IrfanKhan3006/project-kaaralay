@@ -1,0 +1,235 @@
+@media screen and (max-width: 1250) {
+    .bag-icon{
+      height: 22px;
+      width: 22px;
+      margin-left: 0%;
+     }
+
+    .new-job {
+  
+box-sizing: border-box;
+position: absolute;
+left: -2%;
+margin-right: 13%;
+width: 80%;
+height: 64px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+  .rec-down{
+       display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+position: relative;
+width: 100%;
+height: 54px;
+border-radius: 10px;
+}
+.rec-select{
+  position: relative;
+  
+   margin-left: 3%;
+   margin-top: 2%;
+   height: max-content;
+   width: 100%;
+}
+
+}
+@media screen and (max-width: 1000) {
+  .rec-select{
+  position: relative;
+     left:-20%;
+   margin-left: 3%;
+   margin-top: 2%;
+   height: max-content;
+   width: 100%;
+}
+}
+
+
+
+@media screen and (max-width: 800) {
+   .rec-select {
+      position: relative;
+      left:-20%;
+   margin-left: 3%;
+   margin-top: 2%;
+   height: max-content;
+   width: 100%;
+   
+}
+   .new-job {
+  
+box-sizing: border-box;
+
+position: absolute;
+left:-10% !important;
+margin-right: 13%;
+width: 100%;
+height: 64px;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+}
+
+.AS {
+    display: flex;
+    width: 105%;
+    margin-top: 2%;
+   margin-left: 5%;
+}
+.block {
+    width: 100%;
+    margin-top: 1%;
+    
+}
+.search-baraa {
+    position: relative;
+    left:3%;
+    top: 28%;
+    margin-left: 3%;
+    width: 24px;
+    height: 24px;
+    list-style-type: none;
+    list-style: none;
+    border-style: none;
+  
+}
+.rec-search {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    
+}
+.bag {
+    box-sizing: border-box;
+  position: relative;
+  margin-top: 0%;
+  margin-left: 3%;
+  width: 50px;
+  height: 50px;
+  background: #003666;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.bag-icon {
+    width: 34px;
+height: 34px;
+margin-top: 10%;
+margin-left: 15%;
+}
+.bag-icon-1 {
+    width: 28px;
+height: 20px;
+margin-top: 20%;
+margin-left: 20%;
+}
+.bag-icon-2 {
+    width: 28px;
+height: 20px;
+margin-top: 20%;
+margin-left: 20%;
+}
+.rec-down{
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+
+position: relative;
+width: 100%;
+height: 54px;
+border-radius: 10px;
+}
+.soc-rec-drop{
+    align-items: center;
+    text-align: center;
+    width: 200px;
+  height: 44px;
+      background: #F8F9FB;
+  border: 1px solid #EEEEEE;
+  border-radius: 10px;
+}
+.new-joba {
+  
+    box-sizing: border-box;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 0%;
+    width: 200px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.user-joba{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0.8%;
+}
+.post{
+    margin-left: 8%;
+    margin-top: 5%;
+    width: max-content;
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  
+  color: #003666;
+}
+.source {
+    position: relative;
+  
+      background: #003666;
+  border: 1.2px solid #BBBBBF;
+  border-radius: 10px;
+  width: 35%;
+  height: 40px;
+}
+.soc-2{
+    border: 1px solid rgba(0, 0, 0, 0.23);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 14px;
+  height: max-content;
+  width: 86.5%;
+  margin-left: 6.5%;
+}
+.soc-4{
+    height: 50px;
+}
+.soc-6{
+    margin-left: 1%;
+}
+.soc-candidates{
+    width: 100%;
+    position: relative;
+    top: -28%;
+}
+.soc-line{
+    position: relative;
+  width: 98%;
+  margin-left: 1%;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+  

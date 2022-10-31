@@ -1,0 +1,131 @@
+.or-title{
+    margin-top: 3.5%;
+  font-family: 'Gorditas';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  
+  color: #E0791B;
+}
+.upload-txt-upl{
+  position: relative;
+width: max-content;
+height: 14.44px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+margin-top: 3%;
+line-height: 29px;
+left: 1%;
+color: #000000;
+}
+.upload-upl{
+    position: relative;
+  width: 15%;
+  height: 38px;
+  background: #003666;
+  border-radius: 13px;
+  color: white;
+  margin-top: 3%;
+  margin-left: 20%;
+}
+.upload-255{
+  position: relative;
+width: 18%;
+height: 44px;
+background: #F8F9FB;
+border-radius: 13px;
+margin-left: 35%;
+top: 30%;
+left: 5%;
+opacity: 1;
+}
+.descrip-icon-145{
+    position: relative;
+  width: 20px;
+  height: 17.08px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 44px;
+  margin-left: 13%;
+  margin-top: 8%;
+  color: #003666;
+  float: left;
+}
+.descrip-icon-14{
+  position: relative;
+width: 20px;
+height: 17.08px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 44px;
+margin-left: 13%;
+margin-top: 8%;
+color: #003666;
+float: left;
+}
+.upload-txt{
+    position: relative !important;
+ width: 81px;
+ height: 14.44px;
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 18px;
+ margin-top: 10%;
+ 
+ line-height: 29px;
+ 
+ color: #000000;
+ }
+ .upload-tag{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 2%;
+    opacity: 0.7;
+}
+.prof-img{
+    position: relative;
+    left: 0px;
+    
+  
+}
+.required-sym::after{
+    content:" *"; 
+  color: #e32;
+  position: relative; 
+  font-size: 20px;
+}
+.bas-form-enter-10{
+    margin-top: 0%;
+    width: 90%;
+    height: 35px;
+  border: none;
+  background: #F8F9FB;
+  border-radius: 13px;
+  
+}
+.bos-cover{
+    position: relative;
+    left: -37.5%;
+}
+.bas-txt-upload-data{
+    margin-top: -3%;
+    width: 95%;
+    border-radius: 10px;
+    height: 10rem;
+    overflow: auto;
+    background-image: url('./images/logo 6.png');
+    background-position: center center;
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    
+}

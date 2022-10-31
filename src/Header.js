@@ -1,15 +1,14 @@
-import React from 'react'
-import Navbar from 'react-bootstrap/Navbar'
-import Container from 'react-bootstrap/Container'
-import {Link} from 'react-router-dom'
-import Nav from 'react-bootstrap/Nav'
-import './App.js'
-import Dashboard from './Dashboard'
-import logo from './images/white png 1.png'
-import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse.js'
-import group from './images/Group 148.png'
-import vector from './images/Vector-1.png'
-import profile from './images/Group 147.png'
+import React from "react";
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import { Link } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+import logo from "./images/logo 6.png";
+import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse.js";
+import group from "./images/Group 148.png";
+import vector from "./images/Vector-1.png";
+import profile from "./images/Group 147.png";
+import './Header.css'
 
 function Header() {
   return (
@@ -23,66 +22,65 @@ function Header() {
       >
         <Container fluid>
           <Navbar.Brand href="#home">
-            <img src={logo} className="img-fluid rec-logo" style={{height:'48px'}}/>
+            <img
+              src={logo}
+              className="img-fluid rec-logo"
+              style={{ height: "55px" }}
+            />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto s-2 justify-content-center">
-              <Link href="#features" className="s-1">
+              <a href="#features" className="s-1">
                 DashBoard
-              </Link>
-              <Link href="#pricing" className="s-1">
+              </a>
+              <a href="#pricing" className="s-1">
                 Recruitment
-              </Link>
-              <Link href="#pricing" className="s-1">
-               Employees
-              </Link>
-              <Link href="#pricing" className="s-1">
+              </a>
+              <a href="#pricing" className="s-1">
+                Employees
+              </a>
+              <a href="#pricing" className="s-1">
                 Checklist
-              </Link>
-              <Link href="#pricing" className="s-1">
+              </a>
+              <a href="#pricing" className="s-1">
                 Timeoff
-              </Link>
-              <Link href="#pricing" className="s-1">
+              </a>
+              <a href="#pricing" className="s-1">
                 Attendance
-              </Link>{" "}
-              <Link href="#pricing" className="s-1">
+              </a>{" "}
+              <a href="#pricing" className="s-1">
                 Payroll
-              </Link>
-              <Link href="#pricing" className="s-1">
+              </a>
+              <a href="#pricing" className="s-1">
                 More
-              </Link>
-             
+              </a>
             </Nav>
             <NavbarCollapse className="justify-content-start h-1">
-              <Link href="#deets">
+              <a href="#deets">
                 <div className="rec-icons">
                   <img src={group} className="chat" />
                 </div>
-              </Link>
-              <Link href="#deets" style={{ marginLeft: "13%" }}>
+              </a>
+              <a href="#deets" style={{ marginLeft: "13%" }}>
                 <div className="rec-icons">
                   <img src={vector} className="chat" />
                 </div>
-              </Link>
-              <Link href="#deets" style={{ marginLeft: "13%" }}>
-                <div className="rec-icons">
-                  <img src={profile} className="chat" />
-                </div>
-              </Link>
+              </a>
+              <a href="#deets" style={{ marginLeft: "13%" }}>
+                <Link to="/common">
+                  <img src={profile} className="chat1" />
+                </Link>
+              </a>
             </NavbarCollapse>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-     
     </div>
   );
 }
 
 export default Header;
-
-
-
 
 /*
   
@@ -103,16 +101,16 @@ export default Header;
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto s-2 justify-content-center">
-              <Link href="#features" className="s-1">
+              <a href="#features" className="s-1">
                 Features
-              </Link>
-              <Link href="#pricing" className="s-1">
+              </a>
+              <a href="#pricing" className="s-1">
                 Pricing
-              </Link>
-              <Link href="#pricing" className="s-1">
+              </a>
+              <a href="#pricing" className="s-1">
                 Pricing
-              </Link>
-              <Link href="#pricing" className="s-1">
+              </a>
+              <a href="#pricing" className="s-1">
                 Pricing
               </Link>
               <Link href="#pricing" className="s-1">

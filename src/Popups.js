@@ -26,14 +26,9 @@ function Popups() {
     <div>
       <div className="btr" style={{ filter: back }}>
         <img src={dashblur} style={{ height: "100vh", width: "100%" }} />
-        <button
-          style={{ position: "absolute", top: "0%", left: "10%" }}
-          onClick={clickbtn}
-        >
-          click on
-        </button>
+        
       </div>
-      <div className="App-1" style={{ display: Style }}>
+      <div className="App-1" style={{ marginTop:'5%' }}>
         <div className="content-1">
           <p className="heading--1">
             Right on! We can now Create a Workspace for your team.
@@ -135,7 +130,7 @@ function Popups() {
               <div
                 style={{ display: "flex", marginLeft: "3%" }}
                 onClick={() => {
-                  storedata("E-commerce");
+                  storedata("Body Temperature");
                 }}
               >
                 <input
@@ -151,7 +146,7 @@ function Popups() {
               <div
                 style={{ display: "flex", marginLeft: "3%" }}
                 onClick={() => {
-                  storedata("E-commerce");
+                  storedata("Health Tech");
                 }}
               >
                 <input
@@ -167,7 +162,7 @@ function Popups() {
               <div
                 style={{ display: "flex", marginLeft: "3%" }}
                 onClick={() => {
-                  storedata("E-commerce");
+                  storedata("Software OutReach");
                 }}
               >
                 <input
@@ -183,7 +178,7 @@ function Popups() {
               <div
                 style={{ display: "flex", marginLeft: "3%" }}
                 onClick={() => {
-                  storedata("E-commerce");
+                  storedata("Mood");
                 }}
               >
                 <input

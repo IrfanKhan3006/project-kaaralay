@@ -1,28 +1,25 @@
-import React,{useState} from 'react'
-import { Row,Col,Container} from 'react-bootstrap'
-import './App.css'
-import logo from './images/logo 1.png'
+import React, { useState } from "react";
+import { Row, Col, Container } from "react-bootstrap";
+import logo from "./images/logo 1.png";
 import { TextField } from "@mui/material";
 import hidden from "./images/hidden 1.png";
 import visible from "./images/view (1).png";
-import Button from 'react-bootstrap/Button';
-import {IoMdRadioButtonOff} from 'react-icons/io'
-import ellipse from './images/icons8-round-50.png';
+import Button from "react-bootstrap/Button";
+import { IoMdRadioButtonOff } from "react-icons/io";
+import ellipse from "./images/icons8-round-50.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {Link} from 'react-router-dom'
-import { text } from '@fortawesome/fontawesome-svg-core';
-
-
+import { Link } from "react-router-dom";
+import './Forget.css';
 
 function Forgetpsd() {
-    const [passwordShown, setPasswordShown] = useState(false);
-    const [passwordShown1, setPasswordShown1] = useState(false);
-    const togglePasswordVisiblity = () => {
-      setPasswordShown(passwordShown ? false : true);
-    };
-    const togglePasswordVisiblity1 = () => {
-      setPasswordShown1(passwordShown1 ? false : true);
-    };  
+  const [passwordShown, setPasswordShown] = useState(false);
+  const [passwordShown1, setPasswordShown1] = useState(false);
+  const togglePasswordVisiblity = () => {
+    setPasswordShown(passwordShown ? false : true);
+  };
+  const togglePasswordVisiblity1 = () => {
+    setPasswordShown1(passwordShown1 ? false : true);
+  };
   return (
     <div>
       <Container>
@@ -38,7 +35,7 @@ function Forgetpsd() {
             </h1>
             <h5 className="psd-2 text-center">
               Your new password must be different from{" "}
-              <div><span style={{ color: "#E0791B" }}>old </span>password.</div>
+              <span style={{ color: "#E0791B" }}>old </span>password.
             </h5>
             <Row>
               <Col>
@@ -82,7 +79,11 @@ function Forgetpsd() {
                 <Link to="/Createacc" style={{ width: "50%" }}>
                   <button
                     className="button--2"
-                    style={{ width: "40%", marginTop: "10%",marginLeft:'15%' }}
+                    style={{
+                      width: "40%",
+                      marginTop: "10%",
+                      marginLeft: "15%",
+                    }}
                   >
                     Reset Password{" "}
                   </button>
@@ -90,26 +91,31 @@ function Forgetpsd() {
               </Col>
               <Col sm={2}>
                 <div className="box-psd">
-                  <h4 style={{ marginTop: "5%", color: "#E0791B" }}>
-                    <span align="text-center">Please use at least</span>
+                  <h4 style={{ marginTop: "8%", color: "#E0791B" }}>
+                    Please use at least
                   </h4>
                 </div>
                 <div className="box-psd-1">
                   <div className="rest">
                     <p>
-                      <IoMdRadioButtonOff /> 8 Characters
+                      <IoMdRadioButtonOff style={{ marginTop: "-3%" }} /> 8
+                      Characters
                     </p>
                     <p>
-                      <IoMdRadioButtonOff /> 1 Upper Case
+                      <IoMdRadioButtonOff style={{ marginTop: "-3%" }} /> 1
+                      Upper Case
                     </p>
                     <p>
-                      <IoMdRadioButtonOff /> 1 Number
+                      <IoMdRadioButtonOff style={{ marginTop: "-3%" }} /> 1
+                      Number
                     </p>
                     <p>
-                      <IoMdRadioButtonOff /> 1 Lower Case Letter
+                      <IoMdRadioButtonOff style={{ marginTop: "-3%" }} /> 1
+                      lowercase letter
                     </p>
                     <p>
-                      <IoMdRadioButtonOff /> No Leading Spaces
+                      <IoMdRadioButtonOff style={{ marginTop: "-3%" }} /> No
+                      Leading Spaces
                     </p>
                   </div>
                 </div>
@@ -122,4 +128,4 @@ function Forgetpsd() {
   );
 }
 
-export default Forgetpsd
+export default Forgetpsd;

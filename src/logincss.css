@@ -82,7 +82,8 @@ font-family: 'Nuosu SIL', serif;
 }
 
 .img-3{
-  width: 300%;
+  position: relative;
+  width: 100em;
   height: 70%;
    margin-top: 10%;
    margin-right: 30%;

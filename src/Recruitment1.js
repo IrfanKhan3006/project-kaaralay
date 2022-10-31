@@ -25,17 +25,43 @@ import mask4 from './images/Group 2394-1.png'
 import mask5 from './images/Group 2395-2.png'
 import mask6 from "./images/Mask group-link.png";
 import group1 from './images/Group.png'
-
 import Maskjob4 from './images/Mask group--1.png'
-
+import './Recruitment1.css';
 function Recruitment1() {
 
    
    const [sdate, setDate] = useState();
+   const [textlist,settext] = useState([]);
+   const changetextstyle = (e) => {
+    console.log(e.target.id);
+        if (e.target.id == "dotted-list") {
+         
+          let k = document.getElementById("freeform").value;
+          console.log(document.getElementById("freeform").value);
+          const myArray = document.getElementById("freeform").value.split(".");
+          document.getElementById("freeform").value = myArray;
+          let ul = document.createElement("ul");
+          document.getElementById("freeform").value = "";
+          for (let user of myArray) {
+            let li = document.createElement("li");
+            li.innerText = user;
+        
+            ul.appendChild(li);
+               document.getElementById("freeform").value +=  li.innerText;
+          }
+         
+          
+        }
+   }
    const changeStyles = (e) => {
      if (e.target.id == "bold") {
        var k = document.getElementById("freeform");
-       if (k.style.fontWeight == "bold") k.style.fontWeight = "light";
+       if (k.style.fontWeight == "bold")
+       {
+       
+       k.style.fontWeight = "none";
+       console.log(k.style.fontWeight); 
+       }
        else {
          console.log("ues");
          k.style.fontWeight = e.target.id;
@@ -64,25 +90,25 @@ function Recruitment1() {
        {
          id: 1,
          name: "John Doe",
-         role: "developer",
+         role: "Developer",
          candidates: "4 candidates",
        },
        {
          id: 2,
          name: "VicWayne",
-         role: "developer",
+         role: "Developer",
          candidates: "4 candidates",
        },
        {
          id: 3,
          name: "Jane Doe",
-         role: "developer",
+         role: "Developer",
          candidates: "4 candidates",
        },
        {
          id: 3,
          name: "Jane Doe",
-         role: "developer",
+         role: "Developer",
          candidates: "4 candidates",
        },
      ];
@@ -122,79 +148,82 @@ function Recruitment1() {
     <div>
       <div style={{ filter: back }}>
         <Header />
+        <div
+          onClick={showsearch}
+          className="searchbar1"
+          style={{ width: "100%", marginLeft: "-1.5%" }}
+        >
+          <div className="Sec" style={{ display: "flex", width: "100%" }}>
+            <img
+              src={searchbar}
+              className="search"
+              style={{ opacity: opac, position: "relative" }}
+            />
+
+            <input
+              type="search"
+              placeholder="        Search"
+              style={{ width: "60%" }}
+              className="rec-sea"
+              onClick={showicon}
+            />
+            <div className="bog">
+              <Link>
+                <div>
+                  <img src={jobs} className="bog-icon" />
+                </div>
+              </Link>
+            </div>
+            <div className="bog" style={{ backgroundColor: "#ffffff" }}>
+              <Link>
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                  <img src={candidate} className="bog-icon-1" />
+                  <p
+                    style={{
+                      fontSize: "9px",
+                      marginLeft: "8%",
+                      color: "#003666",
+                      textDecoration: "none",
+                    }}
+                  >
+                    candidate
+                  </p>
+                </div>
+              </Link>
+            </div>
+            <div className="bog" style={{ backgroundColor: "#ffffff" }}>
+              <Link>
+                <div style={{ display: "flex", flexDirection: "column" }}>
+                  <img src={setting} className="bog-icon-2" />
+                  <p
+                    style={{
+                      fontSize: "9px",
+                      marginLeft: "18%",
+                      color: "#003666",
+                      textDecoration: "none",
+                    }}
+                  >
+                    settings
+                  </p>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
         <Container>
           <Row>
-            <Col>
-              <div onClick={showsearch} className="main-block">
-                <div className="block" style={{ display: "flex" }}>
-                  <img
-                    src={searchbar}
-                    className="search-bar"
-                    style={{ opacity: opac }}
-                  />
-
-                  <input
-                    type="search"
-                    placeholder="        search"
-                    style={{ width: "60%" }}
-                    className="rec-search"
-                    onClick={showicon}
-                  />
-                  <div className="bag">
-                    <Link>
-                      <div>
-                        <img src={jobs} className="bag-icon" />
-                      </div>
-                    </Link>
-                  </div>
-                  <div className="bag" style={{ backgroundColor: "#ffffff" }}>
-                    <Link>
-                      <div style={{ display: "flex", flexDirection: "column" }}>
-                        <img src={candidate} className="bag-icon-1" />
-                        <p
-                          style={{
-                            fontSize: "9px",
-                            marginLeft: "8%",
-                            color: "#003666",
-                            textDecoration: "none",
-                          }}
-                        >
-                          candidate
-                        </p>
-                      </div>
-                    </Link>
-                  </div>
-                  <div className="bag" style={{ backgroundColor: "#ffffff" }}>
-                    <Link>
-                      <div style={{ display: "flex", flexDirection: "column" }}>
-                        <img src={setting} className="bag-icon-2" />
-                        <p
-                          style={{
-                            fontSize: "9px",
-                            marginLeft: "18%",
-                            color: "#003666",
-                            textDecoration: "none",
-                          }}
-                        >
-                          settings
-                        </p>
-                      </div>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </Col>
+            <Col></Col>
           </Row>
           <div
             style={{ display: "flex", flexDirection: "row", width: "100%" }}
-            className="rec-select"
+            className="rec-sel"
           >
             <div
               className="rec-drop"
-              style={{ marginLeft: "2%", position: "relative", left: "0%" }}
+              style={{ marginLeft: "0%", position: "relative", left: "0%" }}
             >
               <Dropdown
-                className="rec-down"
+                className="rec-dow"
                 style={{ border: "none", outline: "none" }}
               >
                 <Dropdown.Toggle
@@ -254,7 +283,7 @@ function Recruitment1() {
             </div>
             <div
               className="rec-drop"
-              style={{ marginLeft: "5%", position: "relative", left: "0%" }}
+              style={{ marginLeft: "9%", position: "relative", left: "0%" }}
             >
               <Dropdown className="rec-down">
                 <Dropdown.Toggle
@@ -314,7 +343,7 @@ function Recruitment1() {
             </div>
             <div
               className="rec-drop"
-              style={{ marginLeft: "5%", position: "relative", left: "0%" }}
+              style={{ marginLeft: "8%", position: "relative", left: "0%" }}
             >
               <Dropdown className="rec-down">
                 <Dropdown.Toggle
@@ -374,7 +403,7 @@ function Recruitment1() {
             </div>
             <div
               className="rec-drop"
-              style={{ marginLeft: "2%", position: "relative", left: "0%" }}
+              style={{ marginLeft: "9%", position: "relative", left: "0%" }}
             >
               <Dropdown className="rec-down">
                 <Dropdown.Toggle
@@ -432,7 +461,7 @@ function Recruitment1() {
                 </Dropdown.Menu>
               </Dropdown>
             </div>
-            <div className="new-job" onClick={clickbtn}>
+            <div className="new-jab" onClick={clickbtn}>
               <div div className="user-job">
                 <div>
                   {" "}
@@ -450,10 +479,10 @@ function Recruitment1() {
           <div style={{ marginLeft: "13%" }}>
             <div>
               {details.map((user) => (
-                <div className="details">
+                <div className="detail">
                   {user.name}
-                  <p className="details-1">{user.role}</p>
-                  <p className="details-2">{user.candidates}</p>
+                  <p className="detail-1">{user.role}</p>
+                  <p className="detail-2">{user.candidates}</p>
                 </div>
               ))}
             </div>
@@ -461,12 +490,12 @@ function Recruitment1() {
         </Container>
       </div>
       {dec ? (
-        <div className="create" onClick={clickbtnn} id="new--job">
-          <div className="create-main">
+        <div className="cre" id="new--job">
+          <div className="create-mai">
             <div className="create-1">
-              <div className=" text-center create-title">
+              <div className=" text-center cre-title">
                 <h3>Create New Job</h3>
-                <div className="create-line"></div>
+                <div className="cre-line"></div>
               </div>
               <div className="create-content">
                 <div className="create-circle">
@@ -481,7 +510,7 @@ function Recruitment1() {
                   <img src={arrow1} />
                 </div>
                 <div>
-                  <h3 className="create-hiring">HIRING TEAM & WORKFLOW</h3>
+                  <h3 className="cre-hiring">HIRING TEAM & WORKFLOW</h3>
                 </div>
               </div>
             </div>
@@ -502,8 +531,8 @@ function Recruitment1() {
                     class="form-control"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
-                    placeholder="Enter email"
-                    className="form-enter-1"
+                    placeholder=" Job Title"
+                    className="for-enter-1"
                   />
                 </div>
                 <div>
@@ -531,12 +560,14 @@ function Recruitment1() {
                         >
                           <Dropdown.Toggle
                             style={{
+                              position: "relative",
                               backgroundColor: " #FAFAFA",
                               color: "black",
+                              top: "1%",
                               border: "none",
-                              width: "100%",
+                              width: "80%",
                               fontSize: "14px",
-                              opacity: "0.5",
+                              opacity: "2",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -584,9 +615,9 @@ function Recruitment1() {
                               backgroundColor: " #FAFAFA",
                               color: "black",
                               border: "none",
-                              width: "100%",
+                              width: "80%",
                               fontSize: "14px",
-                              opacity: "0.5",
+                              opacity: "2",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -634,9 +665,9 @@ function Recruitment1() {
                               backgroundColor: " #FAFAFA",
                               color: "black",
                               border: "none",
-                              width: "100%",
+                              width: "82%",
                               fontSize: "14px",
-                              opacity: "0.5",
+                              opacity: "2",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -696,9 +727,9 @@ function Recruitment1() {
                               backgroundColor: " #FAFAFA",
                               color: "black",
                               border: "none",
-                              width: "100%",
+                              width: "80%",
                               fontSize: "14px",
-                              opacity: "0.5",
+                              opacity: "2",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -737,7 +768,7 @@ function Recruitment1() {
 
                           width: "100%",
                           fontSize: "14px",
-                          opacity: "0.5",
+                          opacity: "2",
                         }}
                       >
                         <label for="exampleInputEmail1" className="jobtitle">
@@ -753,9 +784,9 @@ function Recruitment1() {
                           type="date"
                           onChange={(e) => setDate(e.target.value)}
                           style={{
-                            width: "100%",
+                            width: "80%",
                             fontSize: "14px",
-                            opacity: "0.5",
+                            opacity: "2",
                           }}
                           className="rec-tog-date"
                         />
@@ -778,9 +809,9 @@ function Recruitment1() {
                               backgroundColor: " #FAFAFA",
                               color: "black",
                               border: "none",
-                              width: "100%",
+                              width: "82%",
                               fontSize: "14px",
-                              opacity: "0.5",
+                              opacity: "2",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -843,9 +874,9 @@ function Recruitment1() {
                               backgroundColor: " #FAFAFA",
                               color: "black",
                               border: "none",
-                              width: "100%",
+                              width: "87.5%",
                               fontSize: "14px",
-                              opacity: "0.5",
+                              opacity: "2",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -894,8 +925,9 @@ function Recruitment1() {
                               backgroundColor: " #FAFAFA",
                               color: "black",
                               border: "none",
+                              width: "82%",
                               fontSize: "14px",
-                              opacity: "0.5",
+                              opacity: "2",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -930,14 +962,17 @@ function Recruitment1() {
                 </div>
                 <div>
                   <div style={{ display: "flex", width: "auto" }}>
-                    <label for="exampleInputEmail1" className="jobtitle">
+                    <label for="exampleInputEmail1" className="jabtitle">
                       Description
                     </label>
                     <span className="required-sym"></span>
                   </div>
                   <div
-                    className="description"
-                    style={{ display: "flex", flexDirection: "row" }}
+                    className="descrip"
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                    }}
                   >
                     <div
                       className="descrip-icon"
@@ -962,20 +997,25 @@ function Recruitment1() {
                         onClick={changeStyles}
                       />
                       <div className="vc"></div>
-                      <img src={mask1} className="descrip-icon-1" />
+                      <img
+                        src={mask1}
+                        className="descrip-icon-1"
+                        id="dotted-list"
+                        onClick={changetextstyle}
+                      />
                       <img src={mask2} className="descrip-icon-1" />
                       <img src={mask3} className="descrip-icon-1" />
                       <img src={mask4} className="descrip-icon-1" />
                       <img src={mask5} className="descrip-icon-1" />
                       <img src={mask6} className="descrip-icon-1" />
                     </div>
-                    <div className="upload" style={{ display: "flex" }}>
+                    <div className="up1" style={{ display: "flex" }}>
                       <img
                         src={group1}
-                        className="descrip-icon-1"
+                        className="des-icon-1"
                         style={{ height: "20px", width: "20px" }}
                       />
-                      <p className="upload-txt" style={{ marginLeft: "3px" }}>
+                      <p className="up-txt" style={{ marginLeft: "3px" }}>
                         Upload
                       </p>
                     </div>
@@ -991,53 +1031,51 @@ function Recruitment1() {
               </form>
 
               <div
-                className="button-section"
+                className="but-section"
                 style={{ display: "flex", marginBottom: "5%" }}
               >
                 <Link
                   to="/Publish"
-                  style={{ marginTop: "4%", marginLeft: "4%" }}
+                  style={{ marginTop: "4%", marginLeft: "-0.5%" }}
                 >
                   <button
-                   
                     className="button--1"
-                    style={{ marginTop: "13%", width: "100%" }}
+                    style={{color: "white" ,marginTop: "10%", width: "100%" }}
                   >
                     <span>Published</span>
                   </button>
                 </Link>
                 <Link
                   to="/Recrutiment"
-                  style={{ marginTop: "4%", marginLeft: "4%" }}
+                  style={{ marginTop: "3.2%", marginLeft: "3%" }}
                 >
                   <button
                     onClick={clickbtnn}
                     className="button--1"
-                    style={{ marginTop: "13%", width: "100%" }}
+                    style={{color:"white", marginTop: "13%", width: "max-content" }}
                   >
                     <span>Internal Use</span>
                   </button>
                 </Link>
                 <Link
                   to="/Recrutiment"
-                  style={{ marginTop: "4.5%", marginLeft: "4%" }}
+                  style={{ marginTop: "4%", marginLeft: "3%" }}
                 >
                   <button
                     onClick={clickbtnn}
                     className="button--1"
-                    style={{ marginTop: "13%", width: "100%" }}
+                    style={{ color:"white",marginTop: "13%", width: "100%" }}
                   >
                     <span>Closed</span>
                   </button>
                 </Link>
                 <Link
                   to="/Publish"
-                  style={{ marginTop: "3%", marginLeft: "4%" }}
+                  style={{ marginTop: "2.5%", marginLeft: "3%" }}
                 >
                   <button
                     className="button--1"
-                    style={{ marginTop: "13%", width: "100%" }}
-                    
+                    style={{ color:"white",marginTop: "13%", width: "max-content" }}
                   >
                     <span>Save and Continue</span>
                   </button>
@@ -1053,10 +1091,10 @@ function Recruitment1() {
                   <button
                     onClick={clickbtnn}
                     className="button--1"
-                    style={{
-                      marginTop: "15%",
+                    style={{color:"white",
+                      marginTop: "13%",
                       width: "100%",
-                      marginLeft: "14%",
+                      marginLeft: "18%",
                     }}
                   >
                     Cancel

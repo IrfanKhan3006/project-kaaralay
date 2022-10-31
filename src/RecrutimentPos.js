@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React,{useState,useRef} from 'react'
 import arrow from "./images/arrow.png";
 import arrow1 from "./images/arrow1.png";
 import { Dropdown } from 'react-bootstrap';
@@ -10,12 +10,41 @@ import { Link } from "react-router-dom";
 import setting from "./images/settings 3.png";
 import { Container, Row, Col } from "react-bootstrap";
 import Header from './Header';
+import {DragDropContext , Droppable,Draggable} from 'react-beautiful-dnd';
+import { sizeHeight } from '@mui/system';
+import './Recrutimentpos.css';
 
 function RecrutimentPos() {
     const [name,setname]=useState("Muskan Bhatia");
     const [email,setemail] = useState("beyondhumanresouces@gmail.com")
      const [back, setback] = useState("none");
      const [dec, setdec] = useState(false);
+     const dragItem = useRef();
+     const dragOverItem = useRef();
+     const [list, setList] = useState([
+       "1st Interview",
+       "2nd Interview",
+       "Screening"
+     ]);
+
+     const dragStart = (e, position) => {
+       dragItem.current = position;
+       console.log(e.target.innerHTML);
+     };
+
+     const dragEnter = (e, position) => {
+       dragOverItem.current = position;
+       console.log(e.target.innerHTML);
+     };
+    const drop = (e) => {
+      const copyListItems = [...list];
+      const dragItemContent = copyListItems[dragItem.current];
+      copyListItems.splice(dragItem.current, 1);
+      copyListItems.splice(dragOverItem.current, 0, dragItemContent);
+      dragItem.current = null;
+      dragOverItem.current = null;
+      setList(copyListItems);
+    };
      const clickbtn = () => {
        setdec(true);
        setback("blur(8px)");
@@ -44,19 +73,19 @@ function RecrutimentPos() {
       <Container>
         <Row>
           <Col>
-            <div onClick={showsearch} className="main-block">
-              <div className="block" style={{ display: "flex" }}>
+            <div onClick={showsearch} className="main">
+              <div className="bl" style={{ display: "flex" }}>
                 <img
                   src={searchbar}
-                  className="search-bar"
+                  className="sea"
                   style={{ opacity: opac }}
                 />
 
                 <input
                   type="search"
-                  placeholder="        search"
+                  placeholder="        Search"
                   style={{ width: "60%" }}
-                  className="rec-search"
+                  className="rec-sea"
                   onClick={showicon}
                 />
                 <div className="bag">
@@ -105,11 +134,11 @@ function RecrutimentPos() {
           </Col>
         </Row>
       </Container>
-      <div className="create-main-1">
+      <div className="crea-main-1">
         <div className="create-1">
-          <div className=" text-start create-title-1">
+          <div className=" text-start creat-title-1">
             <h3>Create New Job</h3>
-            <div className="create-line-1"></div>
+            <div className="creat-line-1"></div>
           </div>
           <div className="create-content">
             <div className="create-circle">
@@ -138,7 +167,7 @@ function RecrutimentPos() {
 
                 <input
                   type="search"
-                  placeholder="        search"
+                  placeholder="        Search"
                   style={{ width: "50%" }}
                   className="rec-search"
                   onClick={showicon}
@@ -164,12 +193,12 @@ function RecrutimentPos() {
                     style={{
                       marginLeft: "3%",
                       height: "20px",
-                      marginTop: "0.5%",
+                      marginTop: "1%",
                     }}
                   />
                   <p
                     className="lock-p"
-                    style={{
+                    style={{paddingTop: "3px",
                       marginLeft: "1%",
                       height: "20px",
                       marginTop: "0.5%",
@@ -179,73 +208,31 @@ function RecrutimentPos() {
                   </p>
                 </div>
                 <div className="pos-line"></div>
-                <div style={{ display: "flex" }}>
-                  <p
-                    className="lock-p-1"
-                    style={{
-                      marginLeft: "8%",
-                      height: "20px",
-                      marginTop: "0.5%",
-                    }}
-                  >
-                    <Dropdown
-                      className="rec-down"
-                      style={{ border: "none", outline: "none" ,height:'13px'}}
+                <div className="pos-line-1"></div>
+
+                {list &&
+                  list.map((item, index) => (
+                    <div
+                      className="lock-p-1"
+                      style={{
+                        marginLeft: "8%",
+                        position: "relative",
+                        top: "-10%",
+                        marginTop:'1%',
+                        marginBottom:'0.5%',
+                        fontSize: "18px",
+                      }}
+                      onDragStart={(e) => dragStart(e, index)}
+                      onDragEnter={(e) => dragEnter(e, index)}
+                      onDragEnd={drop}
+                      key={index}
+                      draggable
                     >
-                      <Dropdown.Toggle
-                        style={{
-                          backgroundColor: " #FAFAFA",
-                          color: "black",
-                          border: "none",
-                          fontSize:'15px'
-                        }}
-                        id="dropdown-basic"
-                        className="rec-tog"
-                      >
-                        Screening
-                      </Dropdown.Toggle>
-
-                      <Dropdown.Menu style={{ color: "black" }}>
-                        <Dropdown.Item
-                          href="#/action-1"
-                          style={{ color: "black" }}
-                        >
-                          <div style={{ display: "flex" }}>
-                            <input
-                              type="checkbox"
-                              id="vehicle2"
-                              name="vehicle2"
-                              value="Car"
-                            />
-                            <h6 style={{ marginLeft: "5%", marginTop: "5%" }}>
-                              1st Interview
-                            </h6>
-                          </div>
-                        </Dropdown.Item>
-                      
-                        <Dropdown.Item
-                          href="#/action-3"
-                          style={{ color: "black" }}
-                        >
-                          <div style={{ display: "flex" }}>
-                            <input
-                              type="checkbox"
-                              id="vehicle2"
-                              name="vehicle2"
-                              value="Car"
-                            />
-                            <h6 style={{ marginLeft: "5%", marginTop: "5%" }}>
-                              2nd Interview
-                            </h6>
-                          </div>
-                        </Dropdown.Item>
-                      </Dropdown.Menu>
-                    </Dropdown>
-                  </p>
-                </div>
-                <div className="pos-line-1"></div>
-
-                <div className="pos-line-1"></div>
+                      {item}
+                      <div className="pos-line-2"></div>
+                    </div>
+                  ))}
+                
                 <div style={{ display: "flex" }}>
                   <img
                     src={lock}
@@ -273,7 +260,7 @@ function RecrutimentPos() {
                     style={{
                       marginLeft: "3%",
                       height: "20px",
-                      marginTop: "0.5%",
+                      marginTop: "0.8%",
                     }}
                   />
                   <p
@@ -318,10 +305,10 @@ function RecrutimentPos() {
                     marginBottom: "3%",
                   }}
                 >
-                  <button className="button--1">
+                  <button className="button--1" style={{ color: "white", borderRadius: "10px", marginLeft: "3%" }}>
                     <span>Conform</span>
                   </button>
-                  <button className="button--1" style={{ marginLeft: "3%" }}>
+                  <button className="button--1" style={{ color: "white",borderRadius: "10px", marginLeft: "3%" }}>
                     <span>Cancel</span>
                   </button>
                 </div>

@@ -10,7 +10,7 @@ import Button from "react-bootstrap/Button";
 import ellipse from "./images/Ellipse 13.png";
 import vector from "./images/Vector.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import arrow from "./images/back.png";
+import arrow from "./images/back.gif";
 
 function Resetpsd() {
   const [passwordShown, setPasswordShown] = useState(false);
@@ -40,7 +40,7 @@ function Resetpsd() {
               <img
                 src={ellipse}
                 className="img-fluid reset-img"
-                style={{ height: "4.5rem" }}
+                style={{ height: "5rem" }}
               />
               <img src={vector} className="img-fluid reset-vec" />
             </div>
@@ -50,18 +50,14 @@ function Resetpsd() {
               link.
             </h4>
             <Link to="/">
-            <button
-                    className="button--2"
-                    style={{ width: "30%", marginTop: "5%", }}
-                  >
-                    Close{" "}
-                  </button>
+              <Button className="btn--2 text-center">Close</Button>
             </Link>
           </Col>
         </Row>
         <div>
           <Link to="/" className="back">
-          <img src={arrow} className="bk-lg" width={"110px"} height="60px" />
+            <img src={arrow} className="bk-lg" width={"110px"} height="60px" />
+            
           </Link>
         </div>
       </Container>
