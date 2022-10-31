@@ -18,6 +18,14 @@
     background-color: #003666;
     margin-top: 5%;
 }
+.btn--2:hover{
+    background-color: #003666;
+}
+.btn--2:focus{
+    background-color: #003666;
+    outline: none !important;
+    box-shadow: none !important;
+}
 .back{
     display: flex;
     flex-direction: row;

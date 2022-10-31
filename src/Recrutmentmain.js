@@ -215,6 +215,7 @@ function RecrutmentMain() {
                     color: "black",
                     border: "none",
                     width: "100%",
+                   
                   }}
                   className="reci-tog"
                 >

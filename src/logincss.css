@@ -83,14 +83,14 @@ font-family: 'Nuosu SIL', serif;
 
 .img-3{
   position: relative;
-  width: 100em;
-  height: 70%;
-   margin-top: 10%;
+  width: 60em;
+  height: 50em;
+ margin-top: -13%;
    margin-right: 30%;
   font-family: 'Inter';
-  background-color: white;
+ z-index: -100;
   
-    
+    overflow: hidden !important;
 font-family: 'Nuosu SIL', serif;
 }
 
@@ -117,7 +117,7 @@ font-family: 'Nuosu SIL', serif;
     margin-right: 5%;
    margin-top: 1%;
     font-family: 'Inter';
-    
+    z-index: 100000000;
 font-family: 'Nuosu SIL', serif;
     
 }
@@ -160,7 +160,9 @@ font-family: 'Nuosu SIL', serif;
     
 font-family: 'Nuosu SIL', serif;
 }
-
+.top{
+  overflow: hidden !important;
+}
 
 .intp{
     top: 2%;

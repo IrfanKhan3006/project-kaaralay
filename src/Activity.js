@@ -21,8 +21,12 @@ function Activity() {
   const [evaluate, setevaluate] = useState(false);
   const [comment, setcomment] = useState(false);
   const [activity, setactivity] = useState(false);
+  const [color1,setcolor1] = useState('white')
+  const [colors,setcolors] = useState('')
 
-  const showdata = (e) => {};
+  const showdata = (e) => {
+    
+  };
   return (
     <div style={{ overflow: "auto" }} className="upload-back">
       <Offcanvas
@@ -138,9 +142,9 @@ function Activity() {
                     <a href="#">COMMENTS</a>
                   </Link>
                 </li>
-                <li className="pro-li-1" style={{left: "20%" , }} onClick={showdata("Activitydata")}>
+                <li className="pro-li-1" style={{left: "20%" ,backgroundColor:colors,color:color1 }} onClick={showdata("Activitydata")}>
                   <Link to="/Activity">
-                    <a href="#">ACTIVITY</a>
+                    <a href="#" style={{backgroundColor:'white',color:'#003666'}}>ACTIVITY</a>
                   </Link>
                 </li>
               </ul>

@@ -132,10 +132,17 @@ width: 160px;
 height: 54px;
 border-radius: 10px;
 }
+.re-down:focus{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    
+}
 .reci-tog{
     margin: 0px;
     width: max-content;
 }
+
 .ne {
   
     box-sizing: border-box;
@@ -192,6 +199,7 @@ border-radius: 10px;
     text-align: center;
     letter-spacing: 0.2px;
 }
+
 .reci-col-2{
     text-align: center;
     position: relative;

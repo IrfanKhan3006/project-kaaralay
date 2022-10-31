@@ -21,11 +21,11 @@ function Login() {
       setPasswordShown(passwordShown ? false : true);
     };
   return (
-    <div className="st-1 top">
+    <div className="st-1 top" style={{overFlow:'hidden'}}>
       <Container>
         <Row>
           <Col>
-            <img src={logo} className="logo-2 img-fluid" />
+            <img src={logo} className="logo-2 img-fluid"  />
           </Col>
         </Row>
         <Row>
@@ -137,8 +137,8 @@ function Login() {
               </form>
             </div>
           </Col>
-          <Col className="text-center f-1">
-            <img src={logingif} className="img-fluid img-3" />
+          <Col className="text-center" >
+           <div><img src={logingif} className="img-fluid img-3"  /></div> 
           </Col>
         </Row>
       </Container>

@@ -39,14 +39,9 @@ function EmailVer() {
     <div>
       <div className="btr" style={{ filter: back }}>
         <img src={dashblur} style={{ height: "100vh", width: "100%" }} />
-        <button
-          style={{ position: "absolute", top: "0%", left: "10%" }}
-          onClick={clickbtn}
-        >
-          click on
-        </button>
+      
       </div>
-      <div className="App-1" style={{ display: Style }}>
+      <div className="App-1" style={{ display: 'flex' }}>
         <div className="content-ver">
           <p className="heading--2">
             What will you mainly use{" "}
