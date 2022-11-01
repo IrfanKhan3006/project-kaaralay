@@ -102,7 +102,7 @@ function Signup() {
                   className="mt-5"
                   id="standard-password-input"
                   label="Mobile Number"
-                  type="number"
+                  type="number=text"
                   value={contactInfo.phonenumber}
                   autoComplete="current-password"
                   variant="standard"

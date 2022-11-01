@@ -186,8 +186,8 @@ function RecrutimentPos() {
                 <p className="name-pos">{name} </p>
                 <p className="email-pos">{email}</p>
               </div>
-              <div className="pos-rec">
-                <div style={{ display: "flex" }}>
+              <div className="pos-recas">
+                <div style={{ display: "flex", top: "10%"}}>
                   <img
                     src={lock}
                     style={{

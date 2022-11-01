@@ -46,6 +46,14 @@
     margin-top: 2%;
    margin-left: 12%;
 }
+.re-down:focus{
+    box-shadow: none !important;
+    outline: none !important;
+   }
+.reci-tog:focus{
+ box-shadow: none !important;
+ outline: none !important;
+}
 .block {
     width: 100%;
     margin-top: 1%;

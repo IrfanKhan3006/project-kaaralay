@@ -56,7 +56,7 @@ function Resume() {
                 to="/upload"
                 style={{ textDecoration: "none", color: "white" }}
               >
-                cancel
+                Cancel
               </Link>
             </button>
           </div>

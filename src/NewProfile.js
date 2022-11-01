@@ -29,7 +29,7 @@ function NewProfile() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   FIRST NAME
                 </label>
                 <span className="required-sym"></span>
@@ -53,7 +53,7 @@ function NewProfile() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   LAST NAME
                 </label>
                 <span className="required-sym"></span>
@@ -82,7 +82,7 @@ function NewProfile() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   Contact Email
                 </label>
                 <span className="required-sym"></span>
@@ -106,7 +106,7 @@ function NewProfile() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   Contact Number
                 </label>
                 <span className="required-sym"></span>
@@ -142,7 +142,7 @@ function NewProfile() {
               >
                 <label
                   for="exampleInputEmail1"
-                  className="jobtitle"
+                  className="jaabtitle"
                   styke={{ opacity: "0.5" }}
                 >
                   Join Date
@@ -211,7 +211,7 @@ function NewProfile() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   Job Type
                 </label>
                 <span className="required-sym"></span>
@@ -242,7 +242,7 @@ function NewProfile() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   Employement Type
                 </label>
                 <span className="required-sym"></span>
@@ -278,7 +278,7 @@ function NewProfile() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   Department
                 </label>
                 <span className="required-sym"></span>
@@ -309,7 +309,7 @@ function NewProfile() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   Line Manager
                 </label>
                 <span className="required-sym"></span>

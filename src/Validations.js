@@ -29,7 +29,7 @@ function Validations() {
             <span>OTP</span> Verification
           </h1>
           <h6>
-            Enter your verification Code at <span>Email ID</span>
+            Enter your verification Code at <span style={{color: '#E0791B'}}>Email ID</span>
           </h6>
           <p className="ver-code">Verification Code</p>
           <OtpInput
@@ -43,7 +43,7 @@ function Validations() {
             isInputNum
           />
           <Link to="/Emailsuc">
-            <button className="sub">Submit</button>
+            <button className="sub" >Submit</button>
           </Link>
         </Col>
       </Row>

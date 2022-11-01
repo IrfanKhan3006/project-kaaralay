@@ -28,6 +28,20 @@
     flex-direction: row;
     
 }
+.jaabtitle{
+    position: relative;
+  width: max-content;
+  height: 8px;
+  font-family: 'Gorditas';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
 .basi-jobtitle{
     position: relative;
  width: max-content;

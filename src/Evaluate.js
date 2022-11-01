@@ -130,7 +130,7 @@ function Evaluate() {
                 </li>
                 <li className="pro-li-1" style={{left: "15%" , }} onClick={showdata("Evaluatedata")}>
                   <Link to="/Evaluate">
-                    <a href="#">EVALUATE</a>
+                    <a href="#" style={{backgroundColor:'white',color:'#003666'}}>EVALUATE</a>
                   </Link>
                 </li>
                 <li className="pro-li-1" style={{left: "0%" , }} onClick={showdata("Evaluatedata")}>

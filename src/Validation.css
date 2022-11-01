@@ -13,6 +13,10 @@
     height: 5rem;
     float: right;
 }
+.ot{
+    position: relative;
+    font-size: 25px;
+}
 .otp-dash{
     align-items: center;
     justify-content: center;

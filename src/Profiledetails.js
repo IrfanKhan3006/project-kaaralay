@@ -20,7 +20,7 @@ function Profiledetails() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   First Name
                 </label>
                 <span className="required-sym"></span>
@@ -43,7 +43,7 @@ function Profiledetails() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   Last Name
                 </label>
                 <span className="required-sym"></span>
@@ -71,7 +71,7 @@ function Profiledetails() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   Email Address
                 </label>
                 <span className="required-sym"></span>
@@ -94,7 +94,7 @@ function Profiledetails() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   Phone Number
                 </label>
               </div>
@@ -105,7 +105,7 @@ function Profiledetails() {
                 aria-describedby="emailHelp"
                 placeholder="Enter PhoneNumber"
                 className="bas-form-enter-1"
-                style={{ marginTop: "0%" }}
+                style={{ marginTop: "4%" }}
               />
             </div>
           </div>
@@ -122,7 +122,7 @@ function Profiledetails() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   Skill
                 </label>
               </div>
@@ -133,7 +133,7 @@ function Profiledetails() {
                 aria-describedby="emailHelp"
                 placeholder="Skills"
                 className="bas-form-enter-1"
-                style={{ marginTop: "0%" }}
+                style={{ marginTop: "4%" }}
               />
             </div>
             <div
@@ -145,7 +145,7 @@ function Profiledetails() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="bas-jobtitle">
+                <label for="exampleInputEmail1" className="basi-jobtitle">
                   Source
                 </label>
               </div>
@@ -156,7 +156,7 @@ function Profiledetails() {
                 aria-describedby="emailHelp"
                 placeholder="Source"
                 className="bas-form-enter-1"
-                style={{ marginTop: "0%" }}
+                style={{ marginTop: "4%" }}
               />
             </div>
           </div>
@@ -165,7 +165,7 @@ function Profiledetails() {
             style={{ display: "flex", flexDirection: "column", width: "100%" }}
           >
             <div style={{ display: "flex" }}>
-              <label for="exampleInputEmail1" className="bas-jobtitle">
+              <label for="exampleInputEmail1" className="basi-jobtitle">
                 Tags
               </label>
             </div>

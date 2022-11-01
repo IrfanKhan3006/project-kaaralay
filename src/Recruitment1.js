@@ -224,13 +224,13 @@ function Recruitment1() {
             >
               <Dropdown
                 className="rec-dow"
-                style={{ border: "none", outline: "none" }}
-              >
+                style={{ border: "none", outline: "none", }}>
                 <Dropdown.Toggle
                   style={{
                     backgroundColor: " #FAFAFA",
                     color: "black",
                     border: "none",
+                    
                   }}
                   id="dropdown-basic"
                   className="rec-tog"
@@ -238,8 +238,8 @@ function Recruitment1() {
                   All Employement
                 </Dropdown.Toggle>
 
-                <Dropdown.Menu style={{ color: "black" }}>
-                  <Dropdown.Item href="#/action-1" style={{ color: "black" }}>
+                <Dropdown.Menu style={{ color: "black", marginLeft: "2rem" }}>
+                  <Dropdown.Item href="#/action-1" style={{ color: "black", }}>
                     <div style={{ display: "flex" }}>
                       <input
                         type="checkbox"
@@ -298,7 +298,7 @@ function Recruitment1() {
                   All Department
                 </Dropdown.Toggle>
 
-                <Dropdown.Menu style={{ color: "black" }}>
+                <Dropdown.Menu style={{ color: "black",marginLeft: "1rem" }}>
                   <Dropdown.Item href="#/action-1" style={{ color: "black" }}>
                     <div style={{ display: "flex" }}>
                       <input
@@ -567,7 +567,7 @@ function Recruitment1() {
                               border: "none",
                               width: "80%",
                               fontSize: "14px",
-                              opacity: "2",
+                              opacity: "0.5",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -617,7 +617,7 @@ function Recruitment1() {
                               border: "none",
                               width: "80%",
                               fontSize: "14px",
-                              opacity: "2",
+                              opacity: "0.5",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -667,7 +667,7 @@ function Recruitment1() {
                               border: "none",
                               width: "82%",
                               fontSize: "14px",
-                              opacity: "2",
+                              opacity: "0.5",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -729,7 +729,7 @@ function Recruitment1() {
                               border: "none",
                               width: "80%",
                               fontSize: "14px",
-                              opacity: "2",
+                              opacity: "0.5",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -768,7 +768,7 @@ function Recruitment1() {
 
                           width: "100%",
                           fontSize: "14px",
-                          opacity: "2",
+                          opacity: "0.5",
                         }}
                       >
                         <label for="exampleInputEmail1" className="jobtitle">
@@ -786,7 +786,7 @@ function Recruitment1() {
                           style={{
                             width: "80%",
                             fontSize: "14px",
-                            opacity: "2",
+                            opacity: "0.5",
                           }}
                           className="rec-tog-date"
                         />
@@ -811,7 +811,7 @@ function Recruitment1() {
                               border: "none",
                               width: "82%",
                               fontSize: "14px",
-                              opacity: "2",
+                              opacity: "0.5",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -876,7 +876,7 @@ function Recruitment1() {
                               border: "none",
                               width: "87.5%",
                               fontSize: "14px",
-                              opacity: "2",
+                              opacity: "0.5",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"
@@ -927,7 +927,7 @@ function Recruitment1() {
                               border: "none",
                               width: "82%",
                               fontSize: "14px",
-                              opacity: "2",
+                              opacity: "0.5",
                             }}
                             id="dropdown-basic"
                             className="rec-tog"

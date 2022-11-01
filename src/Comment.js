@@ -135,7 +135,7 @@ function Evaluate() {
                 </li>
                 <li className="pro-li-1" style={{left: "0%" , }} onClick={showdata("Evaluatedata")}>
                   <Link to="/comment">
-                    <a href="#">COMMENTS</a>
+                    <a href="#" style={{backgroundColor:'white',color:'#003666'}}>COMMENTS</a>
                   </Link>
                 </li>
                 <li className="pro-li-1" style={{left: "20%" , }} onClick={showdata("Activitydata")}>

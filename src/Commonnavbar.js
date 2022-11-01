@@ -128,7 +128,7 @@ function Commonnavbar() {
               <ul className="pro-ul">
                 <li className="pro-li" id="li-1" onClick={showdata("profile")}>
                 <Link to="/common">
-                    <a href="#">PROFILE</a>
+                    <a href="#" style={{backgroundColor:'white',color:'#003666'}}>PROFILE</a>
                   </Link>
                 </li>
                 <li className="pro-li-1" style={{left: "15%" , }} onClick={showdata("Evaluatedata")}>

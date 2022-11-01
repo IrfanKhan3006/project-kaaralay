@@ -151,6 +151,7 @@ font-size: 20px;
 .testing-input1{
   width: 80%;
   height: 80px;
+  outline: none;
   border-radius: 5px;
   background-color: #F8F9FB;
   text-align: center;

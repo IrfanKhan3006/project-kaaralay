@@ -553,7 +553,7 @@ export default function Userdata() {
                 {" "}
                 <img
                   src={Maskjob4}
-                  style={{ marginLeft: "5px", marginTop: "10px" }}
+                  style={{ marginLeft: "10px", marginTop: "10px" }}
                 />
               </div>
               <div className="post">
@@ -572,7 +572,7 @@ export default function Userdata() {
           </div>
         </div>
         <div
-          style={{ display: "flex", marginLeft: "3%", position: "relative" }}
+          style={{ display: "flex", marginLeft: "3%", position: "relative", marginTop: "5%" }}
           className="download"
         >
           <img src={arrowimg} style={{ height: "20px", width: "20px" }} />
@@ -584,7 +584,7 @@ export default function Userdata() {
         style={{
           width: "80%",
           margin: "auto",
-          boxShadow: "0 0 10px",
+          boxShadow: "1 1 1px",
           borderRadius: "10px",
         }}
       >
