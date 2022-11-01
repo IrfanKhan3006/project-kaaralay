@@ -60,7 +60,7 @@ function Login() {
                     class="form-control inpt "
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
-                    placeholder="Enter email"
+                    placeholder="Enter Email"
                     style={{
                       marginTop: "3%",
                       backgroundColor: "#F2F5FF",

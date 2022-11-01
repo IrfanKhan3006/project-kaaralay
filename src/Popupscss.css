@@ -58,7 +58,7 @@
    
 }
 input[name="fav_language"] {
-	accent-color: green;
+	accent-color: #003666;
 }
 @media screen and (max-width: 900px) {
   .content{
