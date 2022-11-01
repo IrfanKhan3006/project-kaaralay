@@ -40,6 +40,7 @@ import Resume from "./Resume";
 import Add from "./Add";
 import Hire from "./Hire";
 import Recrutmentmain from "./Recrutmentmain";
+import Employee1 from "./Employee1";
 
 function App() {
   return (
@@ -86,6 +87,7 @@ function App() {
           <Route path="/EmailTemplate" element={<EmailTemplate />} />
           <Route path="/EmailRejection" element={<EmailOffer />} />
           <Route path="/EmailOffer" element={<EmailReject />} />
+          <Route path="/Employee1" element={<Employee1 />} />
         </Routes>
       </BrowserRouter>
     </div>
