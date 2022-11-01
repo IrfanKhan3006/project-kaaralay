@@ -479,7 +479,7 @@ function Recruitment1() {
           <div style={{ marginLeft: "13%" }}>
             <div>
               {details.map((user) => (
-                <div className="detail">
+                <div className="detail-rec">
                   {user.name}
                   <p className="detail-1">{user.role}</p>
                   <p className="detail-2">{user.candidates}</p>

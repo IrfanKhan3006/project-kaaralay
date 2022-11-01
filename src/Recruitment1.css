@@ -236,12 +236,13 @@
     letter-spacing: 0.2px;
     color: #003666;
 }
-.detail {
+.detail-rec {
     position: relative;
     box-sizing: border-box;
     display: flex;
     position: relative;
-    width: 107%;
+    width: 107% !important;
+    
     left: -10%;
     margin-left: 0%;
     text-align: center;
@@ -258,7 +259,7 @@
     border-radius: 10px;
 }
 .detail-1{
-    position: relative;
+    position: relative !important;
     top: 10%;
     font-family: 'Inter';
     font-style: normal;
@@ -269,7 +270,7 @@
     color: #003666;
 }
 .detail-2{
-    position: relative;
+    position: relative !important;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;

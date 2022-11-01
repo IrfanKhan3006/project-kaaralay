@@ -40,7 +40,7 @@ import Resume from "./Resume";
 import Add from "./Add";
 import Hire from "./Hire";
 import Recrutmentmain from "./Recrutmentmain";
-import Employee1 from "./Employee1";
+import Content from './Content'
 
 function App() {
   return (
@@ -58,6 +58,7 @@ function App() {
           <Route path="/Role" element={<Role />} />
           <Route path="/EmailVer" element={<EmailVer />} />
           <Route path="/Recrutiment" element={<Recrutiment />} />
+          <Route path="/Dashboard" element={<Content/>}/>
           <Route path="/RecrutimentPos" element={<RecrutimentPos />} />
           <Route path="/Publish" element={<Recpublish />} />
           <Route path="/Recrutimentmain" element={<Recrutmentmain />} />
@@ -87,7 +88,6 @@ function App() {
           <Route path="/EmailTemplate" element={<EmailTemplate />} />
           <Route path="/EmailRejection" element={<EmailOffer />} />
           <Route path="/EmailOffer" element={<EmailReject />} />
-          <Route path="/Employee1" element={<Employee1 />} />
         </Routes>
       </BrowserRouter>
     </div>
