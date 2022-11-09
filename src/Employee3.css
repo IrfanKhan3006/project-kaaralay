@@ -1,0 +1,77 @@
+.n{
+    height: 80vh;
+    width: 35%;
+    margin-left: 30%;
+    margin-top: 5%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.ne1{
+    position: relative;
+    margin-left: 30%;
+    align-items: center;
+    font-family: 'Gorditas';
+    font-size: 20px;
+    color: #E0791B;
+}
+.neo{
+    border: 0.5px solid #C4C4C4;
+    width: 92%;
+    margin-left: 3%;
+}
+.ro{
+    display: flex !important;
+    flex-direction: row !important;
+    height: 10%;
+    width: 100%;
+    padding-left: 5%;
+    font-family: "Inter";
+    padding-bottom: 10%;
+    border: 0px solid black;
+    justify-content: flex-start;
+}
+.b{
+    margin-top: 1%;
+    width: 125%;
+    height: 35px;
+    outline: none;
+    border: none;
+    background: #F8F9FB;
+    border-radius: 13px;
+}
+.w{
+    position: relative;
+    top: 20%;
+    font-size: 8px;
+    left: 5%;
+    font-family: "Inter";
+}
+.re{
+    margin-top: 28%;
+    margin-bottom: 1%;
+}
+.rej {
+    width:10rem;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    /* identical to box height */
+    background: #003666;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    margin-left: 3%;
+}
+.upload-back1{
+    width: 100%;
+    position: absolute;
+    height: 130vh;
+    background-image: url('./images/Employees 2.png');
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+

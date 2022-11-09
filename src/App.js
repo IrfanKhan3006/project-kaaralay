@@ -41,6 +41,11 @@ import Add from "./Add";
 import Hire from "./Hire";
 import Recrutmentmain from "./Recrutmentmain";
 import Content from './Content'
+import Employee1 from './Employee1'
+import Employee2 from './Employee2'
+import Employee3 from './Employee3'
+import Employee4 from './Employee4'
+
 
 function App() {
   return (
@@ -88,6 +93,12 @@ function App() {
           <Route path="/EmailTemplate" element={<EmailTemplate />} />
           <Route path="/EmailRejection" element={<EmailOffer />} />
           <Route path="/EmailOffer" element={<EmailReject />} />
+          <Route path="/Employee1" element={<Employee1 />} />
+          <Route path="/Employee2" element={<Employee2 />} />
+          <Route path="/Employee3" element={<Employee3 />} />
+          <Route path="/Employee4" element={<Employee4 />} />
+
+
         </Routes>
       </BrowserRouter>
     </div>
