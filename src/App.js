@@ -45,6 +45,7 @@ import Employee1 from './Employee1'
 import Employee2 from './Employee2'
 import Employee3 from './Employee3'
 import Employee4 from './Employee4'
+import Employee5 from './Employee5'
 
 
 function App() {
@@ -97,6 +98,7 @@ function App() {
           <Route path="/Employee2" element={<Employee2 />} />
           <Route path="/Employee3" element={<Employee3 />} />
           <Route path="/Employee4" element={<Employee4 />} />
+          <Route path="/Employee5" element={<Employee5 />} />
 
 
         </Routes>
