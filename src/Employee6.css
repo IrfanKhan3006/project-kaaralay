@@ -1,15 +1,15 @@
-.Employee5-1 {
+.Employee6-1 {
     display: flex;
     width: 140%;
     margin-top: 1%;
     margin-left: -10.5%;
     border: 0px;
 }
-.Employee5-2 {
+.Employee6-2 {
     width: 100%;
     margin-top: 1%;
 }
-.Employee5-3 {
+.Employee6-3 {
     position: relative;
     left:3%;
     top: 28%;
@@ -20,7 +20,7 @@
     list-style: none;
     border-style: none;
 }
-.Employee5-4 {
+.Employee6-4 {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -33,7 +33,7 @@
     box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
     border-radius: 10px; 
 }
-.Employee5-5 {
+.Employee6-5 {
     box-sizing: border-box;
     position: relative;
     margin-top: 0%;
@@ -45,25 +45,25 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
-.Employee5-5-icon {
+.Employee6-5-icon {
     width: 20px;
     height: 20px;
     margin-top: 0.5%;
     margin-left: 1rem;
 }
-.Employee5-5-icon-1 {
+.Employee6-5-icon-1 {
     width: 25px;
     height: 25px;
     margin-top: 10%;
     margin-left: 20%;
 }
-.Employee5-5-icon-2 {
+.Employee6-5-icon-2 {
     width: 25px;
     height: 25px;
     margin-top: 10%;
     margin-left: 20%;
 }
-.Employee5-6 {
+.Employee6-6 {
     position: relative;
     left: 2%;
     padding-bottom: 5%;
@@ -72,7 +72,7 @@
     height: max-content;
     width: 100%;
 }
-.Employee5-7{
+.Employee6-7{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -81,7 +81,7 @@
     height: 54px;
     border-radius: 10px;
 }
-.Employee5-8{
+.Employee6-8{
     margin: 0px;
     width: 100%;
     height: 80%;
@@ -90,40 +90,44 @@
     border-radius: 10px;
     font-family: "Inter";
 }
-.Employee5-9:focus{
-    color: white !important;
+.Employee6-12{
+    margin-left: 35%;
+    margin-top: 2%;
+    color: #E0791B;
+    font-family: 'Gorditas';
+    font-size: 24px;
 }
-.Employee5-10{
+.Employee6-10{
     box-sizing: border-box;
     position: relative;
     width: 85rem;
     margin-bottom: 2rem;
     height: max-content;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: -2.5%;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 74px;
 }
-.Employee5-11{
+.Employee6-11{
     margin-left: 10%;
     margin-top: 2%;
     width: 7%;
 }
-.Employee5-12{
+.Employee6-12{
     margin-left: 45%;
-    margin-top: -7%;
+    margin-top: 2%;
     color: #E0791B;
     font-family: 'Gorditas';
     font-size: 24px;
 }
-.Employee5-13{
+.Employee6-13{
     display: flex;
     flex-direction: row; 
     margin-left: 5%;
 }
-.Employee5-14{
+.Employee6-14{
     position: relative;
     width: max-content;
     width: 7rem;
@@ -138,27 +142,17 @@
     margin-top: 1%;
     color: #000000;
 }
-.Employee5-15{
+.Employee6-15{
     position: relative;
-    width: 20rem;
-    margin-top: 10%;
-    margin-left: 10rem;
+    width: 18rem;
+    margin-left: 9rem;
     height: 35px;
     outline: none;
     border: none;
     background: #F8F9FB;
     border-radius: 13px;
 }
-.Employee5-16{
+.Employee6-16{
    position: relative;
    margin-left: 50%;
-}
-.Employee5-17{
-    position: relative;
-    color: #E0791B;
-    font-family: 'Gorditas';
-    text-align: center;
-    padding-top: 50%;
-    margin-left: 45%;
-    font-size: 24px;
 }

@@ -1,115 +1,17 @@
 import React,{useState} from 'react';
-import arrowimg from './images/download 5.png'
 import { Container, Row, Col } from "react-bootstrap";
-import jobs from "./images/jobs.png";
-import Maskjob4 from "./images/Mask group--1.png";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
-import Paper from "@mui/material/Paper";
+import jobs from "./images/employee.png";
 import './Employee5.css'
-import candidate from "./images/candidate.png";
-import dott from "./images/Group 2403.png";
+import candidate from "./images/directory.png";
 import { Link } from "react-router-dom";
-import setting from "./images/settings 3.png";
-import set from "./images/settings.png";
+import setting from "./images/organization.png";
 import searchbar from "./images/search_black_24dp 1.png";
 import Header from "./Header";
-import { Dropdown } from "react-bootstrap";
 import ell from "./images/Ellipse 65.png"
 import ed from "./images/000.png"
 
 
 export default function Userdata() {
-    const [sdate, setDate] = useState();
-    const [textlist, settext] = useState([]);
-    const changetextstyle = (e) => {
-      console.log(e.target.id);
-      if (e.target.id == "dotted-list") {
-        let k = document.getElementById("freeform").value;
-        console.log(document.getElementById("freeform").value);
-        const myArray = document.getElementById("freeform").value.split(".");
-        document.getElementById("freeform").value = myArray;
-        let ul = document.createElement("ul");
-        document.getElementById("freeform").value = "";
-        for (let user of myArray) {
-          let li = document.createElement("li");
-          li.innerText = user;
- 
-          ul.appendChild(li);
-          document.getElementById("freeform").value += li.innerText;
-        }
-      }
-    };
-    const changeStyles = (e) => {
-      if (e.target.id == "bold") {
-        var k = document.getElementById("freeform");
-        if (k.style.fontWeight == "bold") {
-          k.style.fontWeight = "none";
-          console.log(k.style.fontWeight);
-        } else {
-          console.log("ues");
-          k.style.fontWeight = e.target.id;
-        }
-      }
-      if (e.target.id == "italic") {
-        var k = document.getElementById("freeform");
-        if (k.style.fontStyle == "italic") k.style.fontStyle = "none";
-        else {
-          console.log("ues");
-          k.style.fontStyle = e.target.id;
-        }
-      }
-      if (e.target.id == "underline") {
-        var k = document.getElementById("freeform");
-        if (k.style.textDecoration == "underline")
-          k.style.textDecoration = "none";
-        else {
-          console.log("ues");
-          k.style.textDecoration = e.target.id;
-        }
-      }
-    };
- 
-    const details = [
-      {
-        id: 1,
-        name: "John Doe",
-        role: "developer",
-        candidates: "4 candidates",
-      },
-      {
-        id: 2,
-        name: "VicWayne",
-        role: "developer",
-        candidates: "4 candidates",
-      },
-      {
-        id: 3,
-        name: "Jane Doe",
-        role: "developer",
-        candidates: "4 candidates",
-      },
-      {
-        id: 3,
-        name: "Jane Doe",
-        role: "developer",
-        candidates: "4 candidates",
-      },
-    ];
-    const [back, setback] = useState("none");
-    const [dec, setdec] = useState(false);
-    const clickbtn = () => {
-      setdec(true);
-      setback("blur(8px)");
-    };
-    const clickbtnn = () => {
-      setdec(false);
-      setback("none");
-    };
     const [data, setdata] = useState(true);
     const [opac, setopac] = useState("10");
  
@@ -147,6 +49,18 @@ export default function Userdata() {
                     <Link to="/Recrutiment">
                       <div>
                         <img src={jobs} className="Employee5-5-icon" />
+                        <p
+                          style={{
+                            fontSize: "7px",
+                            marginLeft: "4%",
+                            textDecoration: "none",
+                            color:"#E0791B",
+                            fontFamily:"gorditas",
+                            textAlign:"center",
+                          }}
+                        >
+                          MANAGE <br /> EMPLOYEE
+                        </p>
                       </div>
                     </Link>
                   </div>
@@ -156,13 +70,15 @@ export default function Userdata() {
                         <img src={candidate} className="Employee5-5-icon-1" />
                         <p
                           style={{
-                            fontSize: "9px",
-                            marginLeft: "8%",
+                            fontSize: "7px",
+                            marginLeft: "4%",
                             color: "#003666",
+                            fontFamily:"gorditas",
+                            textAlign:"center",
                             textDecoration: "none",
                           }}
                         >
-                          candidate
+                          DIRECTORY
                         </p>
                       </div>
                     </Link>
@@ -173,13 +89,16 @@ export default function Userdata() {
                         <img src={setting} className="Employee5-5-icon-2" />
                         <p
                           style={{
-                            fontSize: "9px",
-                            marginLeft: "18%",
+                            fontSize: "7px",
                             color: "#003666",
+                            marginLeft: "-17%",
+                            width: "4rem",
+                            fontFamily:"gorditas",
+                            textAlign:"center",
                             textDecoration: "none",
                           }}
                         >
-                          settings
+                          ORG CHART
                         </p>
                       </div>
                     </Link>
@@ -198,42 +117,42 @@ export default function Userdata() {
                 className="Employee5-7"
                 style={{ border: "none", outline: "none" }}
               >
-                <button style={{backgroundColor: " #FAFAFA", color: "black",}} className="Employee5-8">
+                <button style={{backgroundColor: " #FAFAFA", border: "none", color:"#E0791B"}} className="Employee5-8">
                   General 
                 </button>
               </div>
             </div>
             <div className="rec-drop" style={{ marginLeft: "-7%", position: "relative", left: "10%" }}>
               <div className="Employee5-7">
-                <button style={{ backgroundColor: " #FAFAFA", color: "black", border: "none",}}className="Employee5-8">
+                <button style={{ backgroundColor: " #FAFAFA", color: "#003666", border: "none",}}className="Employee5-8">
                   Job
                 </button>
               </div>
             </div>
             <div className="rec-drop" style={{ marginLeft: "1%", position: "relative", left: "12%" }}>
               <div className="Employee5-7">
-                <button style={{backgroundColor: " #FAFAFA", color: "black", border: "none",}} className="Employee5-8">
+                <button style={{backgroundColor: " #FAFAFA", color: "#003666", border: "none",}} className="Employee5-8">
                  Payroll
                 </button>
               </div>
             </div>
             <div className="rec-drop" style={{ marginLeft: "1%", position: "relative", left: "15%" }}>
               <div className="Employee5-7">
-                <button style={{ backgroundColor: " #FAFAFA", color: "black", border: "none",}} className="Employee5-8">
+                <button style={{ backgroundColor: " #FAFAFA", color: "#003666", border: "none",}} className="Employee5-8">
                   Documents
                 </button>
               </div>
             </div>
             <div className="rec-drop" style={{ marginLeft: "1%", position: "relative", left: "17%" }}>
               <div className="Employee5-7">
-                <button style={{backgroundColor: " #FAFAFA", color: "black",  border: "none",}} className="Employee5-8">
+                <button style={{backgroundColor: " #FAFAFA", color: "#003666",  border: "none",}} className="Employee5-8">
                  Dependents
                 </button>
               </div>
             </div>
             <div className="rec-drop"style={{ marginLeft: "1%", position: "relative", left: "20%" }}>
               <div className="Employee5-7">
-                <button style={{ backgroundColor: " #FAFAFA",color: "black", border: "none", }} className="Employee5-8" >
+                <button style={{ backgroundColor: " #FAFAFA",color: "#003666", border: "none", }} className="Employee5-8" >
                   Accounts settings
                 </button>
               </div>
@@ -272,7 +191,7 @@ export default function Userdata() {
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="First Name"
+                placeholder="FULL NAME"
                 className="Employee5-15"
                 style={{ marginTop: "2%", paddingLeft:"5%" }}
               />
@@ -298,7 +217,7 @@ export default function Userdata() {
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Last Name"
+                placeholder="GENDER"
                 className="Employee5-15"
                 style={{ marginTop: "2%", paddingLeft:"5%",}}
               />
@@ -329,7 +248,7 @@ export default function Userdata() {
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Enter email"
+                placeholder="DATE OF BIRTH"
                 className="Employee5-15"
                 style={{marginTop: "2%", paddingLeft:"5%", left: "-1.7rem" }}
               />            <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-3.8rem"}}/>
@@ -353,7 +272,7 @@ export default function Userdata() {
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Number"
+                placeholder="MARITAL STATUS"
                 className="Employee5-15"
                 style={{ marginTop: "2%", paddingLeft:"5%",  left: "-1.7rem"  }}
               />            <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-3.8rem"}}/>
@@ -382,7 +301,7 @@ export default function Userdata() {
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Number"
+                placeholder="NATIONALITY"
                 className="Employee5-15"
                 style={{ marginTop: "2%", paddingLeft:"5%",  left: "0.5rem"  }}
               />            <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-1.7rem"}}/>
@@ -407,9 +326,9 @@ export default function Userdata() {
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Number"
+                placeholder="PERSONAL TAX ID"
                 className="Employee5-15"
-                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-2.5rem"  }}
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-2rem"  }}
               />            
               <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-4.2rem"}}/>
 
@@ -437,7 +356,7 @@ export default function Userdata() {
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Number"
+                placeholder="EMAIL ADDRESS"
                 className="Employee5-15"
                 style={{ marginTop: "2%", paddingLeft:"5%",  left: "-1.4rem"  }}
               />           
@@ -463,7 +382,7 @@ export default function Userdata() {
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Number"
+                placeholder="EMPLOYEE ID"
                 className="Employee5-15"
                 style={{ marginTop: "2%", paddingLeft:"5%",  left: "0.6rem"  }}
               />           
@@ -493,7 +412,7 @@ export default function Userdata() {
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Number"
+                placeholder="HEALTH INSURANCE"
                 className="Employee5-15"
                 style={{ marginTop: "2%", left: "-3.5rem",  paddingLeft:"5%" }}
               />           
@@ -519,13 +438,422 @@ export default function Userdata() {
                 class="form-control"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
-                placeholder="Number"
+                placeholder="PHONE NUMBER"
                 className="Employee5-15"
                 style={{ marginTop: "2%", paddingLeft:"5%",  left: "-2.9rem"  }}
               /> 
               <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.2rem"}}/>
 
               </div>
+            </div>
+            </div>
+            </div>
+            <div className="Employee5-10">
+              <div>
+                <span className="Employee5-17" style={{left: "3rem"}}>ADDRESS</span>
+              </div>
+              <div
+            className=" Employee5-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "11rem" }}>
+                 PRIMARY ADDRESS
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="PRIMARY ADDRESS"
+                className="Employee5-15"
+                style={{ marginTop: "2%", left: "-3.5rem",  paddingLeft:"5%" }}
+              />           
+               <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.5rem"}}/>
+
+              </div>
+
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                 <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "9rem", left:"-1.2rem"}}>
+                 POSTAL CODE
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="POSTAL CODE"
+                className="Employee5-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-2.9rem"  }}
+              /> 
+              <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.2rem"}}/>
+
+              </div>
+            </div>
+            </div>
+            <div
+            className=" Employee5-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "11rem" }}>
+                 COUNTRY
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="COUNTRY"
+                className="Employee5-15"
+                style={{ marginTop: "2%", left: "-3.5rem",  paddingLeft:"5%" }}
+              />           
+               <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.5rem"}}/>
+
+              </div>
+
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                 <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "9rem", left:"-1.2rem"}}>
+                 STATE/PROVINCE
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="STATE/PROVINCE"
+                className="Employee5-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-2.9rem"  }}
+              /> 
+              <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.2rem"}}/>
+
+              </div>
+            </div>
+            </div>
+            <div
+            className=" Employee5-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "11rem" }}>
+                 CITY
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="CITY"
+                className="Employee5-15"
+                style={{ marginTop: "2%", left: "-3.5rem",  paddingLeft:"3%" }}
+              />           
+               <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "2.2rem", left: "-5.5rem"}}/>
+
+              </div>
+
+            </div>
+            </div>
+            </div>
+            <div className="Employee5-10">
+              <div>
+                <span className="Employee5-17">EMERGENCY CONTACT</span>
+              </div>
+              <div
+            className=" Employee5-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "11rem" }}>
+                 FULL NAME
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="FULL NAME"
+                className="Employee5-15"
+                style={{ marginTop: "2%", left: "-3.5rem",  paddingLeft:"5%" }}
+              />           
+               <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.5rem"}}/>
+
+              </div>
+
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                 <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "9rem", left:"-1.2rem"}}>
+                 RELATIONSHIP
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="RELATIONSHIP"
+                className="Employee5-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-2.9rem"  }}
+              /> 
+              <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.2rem"}}/>
+
+              </div>
+            </div>
+            </div>
+            <div
+            className=" Employee5-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "11rem" }}>
+                 PHONE NUMBER
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="PHONE NUMBER"
+                className="Employee5-15"
+                style={{ marginTop: "2%", left: "-3.5rem",  paddingLeft:"3%" }}
+              />           
+               <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "2.2rem", left: "-5.5rem"}}/>
+
+            </div>
+            </div>
+            </div>
+            </div>
+            <div className="Employee5-10">
+              <div>
+                <span className="Employee5-17">BANK INFORMATION</span>
+              </div>
+              <div
+            className=" Employee5-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "11rem" }}>
+                 BANK NAME
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="BANK NAME"
+                className="Employee5-15"
+                style={{ marginTop: "2%", left: "-3.5rem",  paddingLeft:"5%" }}
+              />           
+               <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.5rem"}}/>
+
+              </div>
+
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                 <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "9rem", left:"-1.2rem"}}>
+                 ACCOUNT NAME
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="ACCOUNT NAME"
+                className="Employee5-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-2.9rem"  }}
+              /> 
+              <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.2rem"}}/>
+
+              </div>
+            </div>
+            </div>
+            <div
+            className=" Employee5-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "11rem" }}>
+                 BRANCH
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="BRANCH"
+                className="Employee5-15"
+                style={{ marginTop: "2%", left: "-3.5rem",  paddingLeft:"5%" }}
+              />           
+               <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.5rem"}}/>
+
+            </div>
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                 <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "10rem", left:"-1.2rem"}}>
+                 ACCOUNT NUMBER
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="ACCOUNT NUMBER"
+                className="Employee5-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-3.9rem"  }}
+              /> 
+              <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-6.1rem"}}/>
+
+            </div>
+            </div>
+            </div>
+            <div
+            className=" Employee5-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "11rem" }}>
+                SWIFT / BIC
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="SWIFT / BIC"
+                className="Employee5-15"
+                style={{ marginTop: "2%", left: "-3.5rem",  paddingLeft:"5%" }}
+              />           
+               <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.5rem"}}/>
+
+            </div>
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                 <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee5-14" style={{width: "9rem", left:"-1.2rem"}}>
+                 IBAN
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="IBAN"
+                className="Employee5-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-2.9rem"  }}
+              /> 
+              <img src={ed}  classname="Employee5-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.2rem"}}/>
+            </div>
             </div>
             </div>
             </div>
