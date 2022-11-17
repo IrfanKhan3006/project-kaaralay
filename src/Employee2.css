@@ -76,13 +76,6 @@
     margin-top: 1%;
     color: #000000;
 }
-.row{
-    display: flex !important;
-    flex-direction: row !important;
-    height: 30%;
-    border: 1px solid black;
-    justify-content: space-around;
-}
 .ch{
     display: flex;
     flex-wrap: wrap;
