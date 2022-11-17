@@ -1,13 +1,13 @@
 import React,{useState} from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import jobs from "./images/employee.png";
-import './Employee7.css'
+import './Employee8.css'
 import candidate from "./images/directory.png";
 import { Link } from "react-router-dom";
 import setting from "./images/organization.png";
 import searchbar from "./images/search_black_24dp 1.png";
 import Header from "./Header";
-import ell from "./images/Ellipse 65.png"
+import ell from "./images/Group.png"
 import ed from "./images/000.png"
 
 
@@ -30,11 +30,11 @@ export default function Userdata() {
         <div style={{overflow:'hidden', width:"100%"}}>
         <Header />
         <Container>
-              <div onClick={showsearch} className="Employee6-1">
-                <div className="Employee6-2" style={{ display: "flex" }}>
+              <div onClick={showsearch} className="Employee8-1">
+                <div className="Employee8-2" style={{ display: "flex" }}>
                   <img
                     src={searchbar}
-                    className="Employee6-3"
+                    className="Employee8-3"
                     style={{ opacity: opac }}
                   />
   
@@ -42,13 +42,13 @@ export default function Userdata() {
                     type="search"
                     placeholder="Search"
                     style={{ width: "60%", paddingLeft: "3%" }}
-                    className="Employee6-4"
+                    className="Employee8-4"
                     onClick={showicon}
                   />
-                  <div className="Employee6-5">
+                  <div className="Employee8-5">
                     <Link to="/Recrutiment">
                       <div>
-                        <img src={jobs} className="Employee6-5-icon" />
+                        <img src={jobs} className="Employee8-5-icon" />
                         <p
                           style={{
                             fontSize: "7px",
@@ -64,10 +64,10 @@ export default function Userdata() {
                       </div>
                     </Link>
                   </div>
-                  <div className="Employee6-5" style={{ backgroundColor: "#ffffff" }}>
+                  <div className="Employee8-5" style={{ backgroundColor: "#ffffff" }}>
                     <Link to="/Candidate">
                       <div style={{ display: "flex", flexDirection: "column" }}>
-                        <img src={candidate} className="Employee6-5-icon-1" />
+                        <img src={candidate} className="Employee8-5-icon-1" />
                         <p
                           style={{
                             fontSize: "7px",
@@ -83,10 +83,10 @@ export default function Userdata() {
                       </div>
                     </Link>
                   </div>
-                  <div className="Employee6-5" style={{ backgroundColor: "#ffffff" }}>
+                  <div className="Employee8-5" style={{ backgroundColor: "#ffffff" }}>
                     <Link to="/Hire">
                       <div style={{ display: "flex", flexDirection: "column" }}>
-                        <img src={setting} className="Employee6-5-icon-2" />
+                        <img src={setting} className="Employee8-5-icon-2" />
                         <p
                           style={{
                             fontSize: "7px",
@@ -107,57 +107,81 @@ export default function Userdata() {
               </div>
               <div
             style={{ display: "flex", flexDirection: "row", width: "200%", left:"-10%" }}
-            className="Employee6-6"
+            className="Employee8-6"
           >
             <div
               className="rec-drop"
               style={{ marginLeft: "1%", position: "relative", left: "0%" }}
             >
               <div
-                className="Employee6-7"
+                className="Employee8-7"
                 style={{ border: "none", outline: "none" }}
               >
-                <button style={{backgroundColor: " #FAFAFA", border: "none", color:"#003666"}} className="Employee6-8">
+                <button style={{backgroundColor: " #FAFAFA", border: "none", color:"#003666"}} className="Employee8-8">
                   General 
                 </button>
               </div>
             </div>
             <div className="rec-drop" style={{ marginLeft: "-7%", position: "relative", left: "10%" }}>
-              <div className="Employee6-7">
-                <button style={{ backgroundColor: " #FAFAFA", color: "#E0791B ", border: "none",}}className="Employee6-8">
+              <div className="Employee8-7">
+                <button style={{ backgroundColor: " #FAFAFA", color: "#003666 ", border: "none",}}className="Employee8-8">
                   Job
                 </button>
               </div>
             </div>
             <div className="rec-drop" style={{ marginLeft: "1%", position: "relative", left: "12%" }}>
-              <div className="Employee6-7">
-                <button style={{backgroundColor: " #FAFAFA", color: "#003666", border: "none",}} className="Employee6-8">
+              <div className="Employee8-7">
+                <button style={{backgroundColor: " #FAFAFA", color: "#003666", border: "none",}} className="Employee8-8">
                  Payroll
                 </button>
               </div>
             </div>
             <div className="rec-drop" style={{ marginLeft: "1%", position: "relative", left: "15%" }}>
-              <div className="Employee6-7">
-                <button style={{ backgroundColor: " #FAFAFA", color: "#003666", border: "none",}} className="Employee6-8">
+              <div className="Employee8-7">
+                <button style={{ backgroundColor: " #FAFAFA", color: "#E0791B", border: "none",}} className="Employee8-8">
                   Documents
                 </button>
               </div>
             </div>
             <div className="rec-drop" style={{ marginLeft: "1%", position: "relative", left: "17%" }}>
-              <div className="Employee6-7">
-                <button style={{backgroundColor: " #FAFAFA", color: "#003666",  border: "none",}} className="Employee6-8">
+              <div className="Employee8-7">
+                <button style={{backgroundColor: " #FAFAFA", color: "#003666",  border: "none",}} className="Employee8-8">
                  Dependents
                 </button>
               </div>
             </div>
             <div className="rec-drop"style={{ marginLeft: "1%", position: "relative", left: "20%" }}>
-              <div className="Employee6-7">
-                <button style={{ backgroundColor: " #FAFAFA",color: "#003666", border: "none", }} className="Employee6-8" >
+              <div className="Employee8-7">
+                <button style={{ backgroundColor: " #FAFAFA",color: "#003666", border: "none", }} className="Employee8-8" >
                   Accounts settings
                 </button>
               </div>
               </div>
               </div>
+              <div className="Employee8-10" style={{height: "25rem"}}>
+                  <div>    
+                        <div className="Employee8-12">
+                            <p> 
+                            CONTRACTS
+                            </p>
+                            <button className="Employee8-13"> <img src={ell} />Upload</button>
+                        </div>
+                        <span className="Employee8-14">
+                          FIRST NAME
+                        </span>
+              </div>  
+              </div>
+
+
+
+
+
+
+
+
+
+
+
               </Container>
              </div>
               

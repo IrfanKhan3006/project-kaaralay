@@ -48,6 +48,7 @@ import Employee4 from './Employee4'
 import Employee5 from './Employee5'
 import Employee6 from './Employee6'
 import Employee7 from './Employee7'
+import Employee8 from './Employee8'
 
 
 function App() {
@@ -103,6 +104,8 @@ function App() {
           <Route path="/Employee5" element={<Employee5 />} />
           <Route path="/Employee6" element={<Employee6 />} />
           <Route path="/Employee7" element={<Employee7 />} />
+          <Route path="/Employee8" element={<Employee8 />} />
+
 
         </Routes>
       </BrowserRouter>

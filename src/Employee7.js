@@ -160,7 +160,7 @@ export default function Userdata() {
               </div>
               <div className="Employee7-10" style={{height: "25rem"}}>
                   <div>    
-                        <div className="Employee7-12" style={{left: "10%"}}>
+                        <div className="Employee7-12">
                             <p> 
                             RECURRING PAYMENTS
                             </p>
@@ -168,19 +168,153 @@ export default function Userdata() {
                         </div>
                   </div>  
               </div>
+              <div className="Employee7-10" style={{height: "20rem"}}>
+              <div>    
+                            <div className="Employee7-12">
+                            <p> 
+                            SALARY INFORMATION
+                            </p>
+                            <button className="Employee7-13" style={{width: "20%", left: "36rem"}}> <img src={ell} />Salary Updates</button>
+                            </div>
+                            <div style={{
+                              display:"flex",
+                              flexDirection:"row",
+                              width:"100%"
+                            }}>
+                              <span className="Employee7-14">
+                              June 8, 1992
+                              </span >
+                              <span className="Employee7-14">
+                              June 8, 1992
+                              </span>
+                              <span className="Employee7-14">
+                              June 8, 1992
+                              </span>
+                              <span className="Employee7-14">
+                              June 8, 1992
+                              </span>
+                            </div>
+                            <div style={{
+                              display:"flex",
+                              flexDirection:"row",
+                              width:"100%"
+                            }}>
+                               <span className="Employee7-15">
+                               03 APR 2022
+                              </span>
+                              <span className="Employee7-15">
+                              NO END DATE
+                              </span>
+                              <span className="Employee7-15">
+                              ₹ 50,000.00
+                              </span>
+                            </div>
+                            </div> 
+                            </div>
+                            <div className="Employee7-10">
+                            <div>    
+                            <div className="Employee7-12">
+                            <p> 
+                            PAYROLL DETAILS
+                            </p>
+                            </div>
+                            <div style={{
+                              display:"flex",
+                              flexDirection:"row",
+                              width:"100%"
+                            }}>
+                              <span className="Employee7-16">
+                              June 8, 1992
+                              </span >
+                              <span className="Employee7-16">
+                              June 8, 1992
+                              </span>
+                              <span className="Employee7-16">
+                              June 8, 1992
+                              </span>
+                              <span className="Employee7-16">
+                              June 8, 1992
+                              </span>
+                              <span className="Employee7-16">
+                              June 8, 1992
+                              </span>
+                              <span className="Employee7-16">
+                              June 8, 1992
+                              </span>
+                              <span className="Employee7-16">
+                              June 8, 1992
+                              </span>
+                              <span className="Employee7-16">
+                              June 8, 1992
+                              </span>
+                              
+                            </div>
+                            <div style={{
+                              display:"flex",
+                              flexDirection:"row",
+                              width:"100%"
+                            }}>
+                               <span className="Employee7-17" style={{width:"15rem"}}>
+                               01 Apr 2022 - 30 Apr 2022
 
+                              </span>
+                              <span className="Employee7-17" style={{marginLeft:"-2rem"}}>
+                              ₹ 35,483.87
+                              </span>
+                              <span className="Employee7-17">
+                              ₹ 35,483.87
+                              </span>
+                              <span className="Employee7-17" style={{marginLeft:"4rem"}}>
+                              ₹ 0.00
+                              </span>
+                              <span className="Employee7-17">
+                              ₹ 0.00
+                              </span>
+                              <span className="Employee7-17">
+                              ₹ 0.00
+                              </span>
+                              <span className="Employee7-17" style={{marginLeft:"4rem"}}>
+                              ₹ 0.00
+                              </span>
+                              <span className="Employee7-17">
+                              ₹ 0.00
+                              </span>
+                              
+                            </div>
+                            <hr />
+                            <div style={{
+                              display:"flex",
+                              flexDirection:"row",
+                              width:"100%"
+                            }}>
+                               <span className="Employee7-17" style={{width:"15rem"}}>
+                               01 Apr 2022 - 30 Apr 2022
 
-
-
-
-
-
-
-
-
-
-
-
+                              </span>
+                              <span className="Employee7-17" style={{marginLeft:"-2rem"}}>
+                              ₹ 35,483.87
+                              </span>
+                              <span className="Employee7-17">
+                              ₹ 35,483.87
+                              </span>
+                              <span className="Employee7-17" style={{marginLeft:"4rem"}}>
+                              ₹ 0.00
+                              </span>
+                              <span className="Employee7-17">
+                              ₹ 0.00
+                              </span>
+                              <span className="Employee7-17">
+                              ₹ 0.00
+                              </span>
+                              <span className="Employee7-17" style={{marginLeft:"4rem"}}>
+                              ₹ 0.00
+                              </span>
+                              <span className="Employee7-17">
+                              ₹ 0.00
+                              </span>
+                            </div>
+                            </div>
+                            </div>
               </Container>
              </div>
               
