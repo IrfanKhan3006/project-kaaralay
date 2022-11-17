@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import setting from "./images/organization.png";
 import searchbar from "./images/search_black_24dp 1.png";
 import Header from "./Header";
-import ell from "./images/Ellipse 65.png"
 import ed from "./images/000.png"
 
 
@@ -263,10 +262,9 @@ export default function Userdata() {
               }}
             >
               <div style={{ display: "flex" }}>
-                <label for="exampleInputEmail1" className="Employee6-14" style={{width: "12.5rem"}}>
+                <label for="exampleInputEmail1" className="Employee6-14" style={{width: "12.5rem", left:"-0.7rem"}}>
                   CONTRACT END DATE
                 </label>
-                 
                 <input
                 type="text"
                 class="form-control"
@@ -334,7 +332,7 @@ export default function Userdata() {
                 className="Employee6-15"
                 style={{ marginTop: "2%", paddingLeft:"5%", left: "0.7rem"}}
               />
-                          <img src={ed}  classname="Employee6-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-1.5rem"}}/>
+          <img src={ed}  classname="Employee6-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-1.5rem"}}/>
 
               </div>
               </div>
@@ -348,24 +346,149 @@ export default function Userdata() {
                             </p>
                         </div>
                   </div> 
-                  
-              
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                  <div style={{
+                display: "flex",
+                flexDirection: "row",
+                width: "100%",}}>
+                  <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "50%",}}>
+              <span className="Employee6-17">
+              CURRENT SCHEDULE
+              </span>
+             <span className="Employee6-17">
+              STANDARD WORKING HOURS/DAY
+            </span>
+            <span className="Employee6-17">
+              SCHEDULE TYPE
+            </span>
+            <span className="Employee6-17">
+              TOTAL WORKING HOURS/WEEK
+            </span>
+            <span className="Employee6-17">
+             DAILY WORKING HOURS
+            </span>
+            </div>
+            <div
+              class="form-group"
+              style={{
+               display: "flex",
+                flexDirection: "column",
+                width: "50%",}}>
+                  <span className="Employee6-18">
+                  Mon-Fri, Duration 40 hours/week
+                  <img src={ed}  classname="Employee6-16" 
+                  style={{position: "relative", width: "15px", height: "15px", top: "0rem", left: "1rem"}}
+                  />
+                  </span>
+                  <span className="Employee6-18">
+                 8H 00M
+                  </span>
+                  <span className="Employee6-18">
+                  DURATION-BASED
+                  </span>
+                  <span className="Employee6-18">
+                  40H 00M
+                  </span>
+                  <span className="Employee6-18">
+                  MONDAY
+                  </span>
+                  <span className="Employee6-18">
+                  TUESDAY
+                  </span>
+                  <span className="Employee6-18">
+                  WEDNESDAY
+                  </span>
+                  <span className="Employee6-18">
+                  THURSDAY
+                  </span>
+                  <span className="Employee6-18">
+                  FRIDAY
+                  </span>
+                  <span className="Employee6-18">
+                  SATURDAY
+                  </span>
+                  <span className="Employee6-18">
+                  SUNDAY
+                  </span>
+               </div>
+               
+               <div
+              class="form-group"
+              style={{
+                position: "relative",
+               display: "flex",
+                flexDirection: "column",
+                width: "80%",
+                top: "12rem",}}>                 
+                  <span className="Employee6-18">
+                  8H 00M
+                  </span>
+                  <span className="Employee6-18">
+                  8H 00M
+                  </span>
+                  <span className="Employee6-18">
+                  8H 00M
+                  </span>
+                  <span className="Employee6-18">
+                  8H 00M
+                  </span>
+                  <span className="Employee6-18">
+                  8H 00M
+                  </span>
+                  <span className="Employee6-18">
+                  (NON-WORKING DAY)
+                  </span>
+                  <span className="Employee6-18">
+                  (NON-WORKING DAY)
+                  </span>
+                </div>
+                </div>
+                </div>
+                <div>
+                <div className="Employee6-10">
+                  <div>    
+                        <div className="Employee6-12">
+                            <span > 
+                               JOB HISTORY
+                            </span>
+                        </div>
+                        <div class="form-group"
+                          style={{
+                            display: "flex",
+                            flexDirection: "column",
+                            width: "50%",}}>
+                          <span className="Employee6-17">
+                            2022
+                          </span>
+                          <span className="Employee6-19">
+                           MAY 07
+                          </span>
+                          <span className="Employee6-19">
+                          Employee Status was changed from "Probationary" to "Active".<br />
+                          Employee Status was changed from "Onboarding" to "Probationary".<br />
+                          Employee Status was changed from "Active" to "Onboarding".
+                          </span>
+                        </div>
+                        <div class="form-group"
+                          style={{
+                            display: "flex",
+                            flexDirection: "column",
+                            width: "50%",}}>
+                          <span className="Employee6-19">
+                           MAY 05
+                          </span>
+                          <span className="Employee6-19">
+                          Employee Status was changed from "Probationary" to "Active".<br />
+                          Employee Status was changed from "Onboarding" to "Probationary".<br />
+                          Employee Status was changed from "Active" to "Onboarding".
+                          </span>
+                        </div>
+                  </div> 
+                </div>
               </div>
               </Container>
               </div>
