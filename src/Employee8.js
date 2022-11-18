@@ -8,7 +8,8 @@ import setting from "./images/organization.png";
 import searchbar from "./images/search_black_24dp 1.png";
 import Header from "./Header";
 import ell from "./images/Group.png"
-import ed from "./images/000.png"
+import ed from "./images/del.png"
+import eda from "./images/download 5.png"
 
 
 export default function Userdata() {
@@ -167,10 +168,44 @@ export default function Userdata() {
                             <button className="Employee8-13"> <img src={ell} />Upload</button>
                         </div>
                         <span className="Employee8-14">
-                          FIRST NAME
+                          FILE NAME
                         </span>
-              </div>  
-              </div>
+                  </div>  
+                        <p className="Employee8-15">
+                        Isaac Rejoice Contract-pages-deleted-converted.docx
+                        <img src={eda} className="Employee8-16"/><img src={ed} />
+                        </p>
+                        <hr />
+                        <p className="Employee8-15">
+                        WhatsApp Image 2022-03-30 at 11.58.07 AM.jpeg
+                        <img src={eda} className="Employee8-17" /><img src={ed} />
+                        </p>                
+               </div>
+               <div className="Employee8-10" style={{height: "22rem"}}>
+               <div>    
+                        <div className="Employee8-12">
+                            <p> 
+                            PERSONAL DOCUMENTS
+                            </p>
+                            <button className="Employee8-13"> <img src={ell} />Upload</button>
+                        </div>
+                        <span className="Employee8-14">
+                          FILE NAME
+                        </span>
+                  </div>  
+                        <p className="Employee8-15">
+                        Isaac Rejoice Contract-pages-deleted-converted.docx
+                        <img src={eda} className="Employee8-16"/><img src={ed} />
+                        </p>
+                        <hr />
+                        <p className="Employee8-15">
+                        WhatsApp Image 2022-03-30 at 11.58.07 AM.jpeg
+                        <img src={eda} className="Employee8-17" /><img src={ed} />
+                        </p>                
+              
+               </div>
+
+
 
 
 
