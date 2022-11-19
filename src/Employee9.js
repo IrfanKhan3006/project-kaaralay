@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import setting from "./images/organization.png";
 import searchbar from "./images/search_black_24dp 1.png";
 import Header from "./Header";
-import ell from "./images/Ellipse 65.png"
+import ell from "./images/Mask group--1.png"
 import ed from "./images/000.png"
 
 
@@ -158,20 +158,573 @@ export default function Userdata() {
               </div>
               </div>
               </div>
+              <div>
+                <button className="Employee9-17"> <img src={ell} />NEW DEPENDENT</button>
+              </div>
+              <div className="Employee9-10">
+                    
+                    <div
+            className=" Employee9-13"
+            style={{ display: "flex", paddingTop: "4%", }}
+          >
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+                
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14">
+                  FULL NAME
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="FULL NAME"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%" }}
+              />
+            <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-2rem"}}/>
 
+              </div>
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14">
+                  GENDER
+                </label>
+                 
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="GENDER"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",}}
+              />
+                          <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-2rem"}}/>
 
-
-
-
-
-
-
-
-
-
+              </div>
               
-              </Container>
-             </div>
+            </div>
+          </div>
+          <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{width: "9rem"}}>
+                  DATE OF BIRTH
+                </label>
+                <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="DATE OF BIRTH"
+                className="Employee9-15"
+                style={{marginTop: "2%", paddingLeft:"5%", left: "-1.7rem" }}
+              />            <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-3.8rem"}}/>
+
+              </div>
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{width: "9rem"}}>
+                 MARITAL STATUS
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="MARITAL STATUS"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-1.7rem"  }}
+              />            <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-3.8rem"}}/>
+
+              </div>
+            </div>
+            </div>
+            <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14">
+                 NATIONALITY
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="NATIONALITY"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "0.5rem"  }}
+              />            <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-1.7rem"}}/>
+
+              </div>
+
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                 <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{width: "10rem", left:"1rem"}}>
+                 PERSONAL TAX ID
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="PERSONAL TAX ID"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-2rem"  }}
+              />            
+              <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-4.2rem"}}/>
+
+              </div>
+            </div>
+            </div>
+            <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{width: "9rem"}}>
+                 EMAIL ADDRESS
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="EMAIL ADDRESS"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-1.4rem"  }}
+              />           
+               <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-3.8rem"}}/>
+
+              </div>
+
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                 <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{left:"0.5rem"}}>
+                 EMPLOYEE ID
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="EMPLOYEE ID"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "0.6rem"  }}
+              />           
+               <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-1.7rem"}}/>
+
+              </div>
+            </div>
+            </div>
+            <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{width: "11rem" }}>
+                 HEALTH INSURANCE
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="HEALTH INSURANCE"
+                className="Employee9-15"
+                style={{ marginTop: "2%", left: "-3.5rem",  paddingLeft:"5%" }}
+              />           
+               <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.5rem"}}/>
+
+              </div>
+
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                 <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{width: "9rem", left:"-1.2rem"}}>
+                 PHONE NUMBER
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="PHONE NUMBER"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-2.9rem"  }}
+              /> 
+              <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.2rem"}}/>
+
+              </div>
+            </div>
+            </div>
+            </div>
+            <div className="Employee9-10">
+                    
+                    <div
+            className=" Employee9-13"
+            style={{ display: "flex", paddingTop: "4%", }}
+          >
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+                
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14">
+                  FULL NAME
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="FULL NAME"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%" }}
+              />
+            <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-2rem"}}/>
+
+              </div>
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14">
+                  GENDER
+                </label>
+                 
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="GENDER"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",}}
+              />
+                          <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-2rem"}}/>
+
+              </div>
+              
+            </div>
+          </div>
+          <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{width: "9rem"}}>
+                  DATE OF BIRTH
+                </label>
+                <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="DATE OF BIRTH"
+                className="Employee9-15"
+                style={{marginTop: "2%", paddingLeft:"5%", left: "-1.7rem" }}
+              />            <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-3.8rem"}}/>
+
+              </div>
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{width: "9rem"}}>
+                 MARITAL STATUS
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="MARITAL STATUS"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-1.7rem"  }}
+              />            <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-3.8rem"}}/>
+
+              </div>
+            </div>
+            </div>
+            <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14">
+                 NATIONALITY
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="NATIONALITY"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "0.5rem"  }}
+              />            <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-1.7rem"}}/>
+
+              </div>
+
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                 <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{width: "10rem", left:"1rem"}}>
+                 PERSONAL TAX ID
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="PERSONAL TAX ID"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-2rem"  }}
+              />            
+              <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-4.2rem"}}/>
+
+              </div>
+            </div>
+            </div>
+            <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{width: "9rem"}}>
+                 EMAIL ADDRESS
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="EMAIL ADDRESS"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-1.4rem"  }}
+              />           
+               <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-3.8rem"}}/>
+
+              </div>
+
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                 <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{left:"0.5rem"}}>
+                 EMPLOYEE ID
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="EMPLOYEE ID"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "0.6rem"  }}
+              />           
+               <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-1.7rem"}}/>
+
+              </div>
+            </div>
+            </div>
+            <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "1%" }}
+          >
+             <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{width: "11rem" }}>
+                 HEALTH INSURANCE
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="HEALTH INSURANCE"
+                className="Employee9-15"
+                style={{ marginTop: "2%", left: "-3.5rem",  paddingLeft:"5%" }}
+              />           
+               <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.5rem"}}/>
+
+              </div>
+
+            </div>
+            <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+                 <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee9-14" style={{width: "9rem", left:"-1.2rem"}}>
+                 PHONE NUMBER
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="PHONE NUMBER"
+                className="Employee9-15"
+                style={{ marginTop: "2%", paddingLeft:"5%",  left: "-2.9rem"  }}
+              /> 
+              <img src={ed}  classname="Employee9-16" style={{position: "relative", width: "15px", height: "15px", top: "1.3rem", left: "-5.2rem"}}/>
+
+              </div>
+            </div>
+            </div>
+            </div>             
+            </Container>
+            </div>
               
     )
 }

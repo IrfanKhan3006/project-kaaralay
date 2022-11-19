@@ -1,165 +1,349 @@
-import React,{useState} from 'react';
-import { Container, Row, Col } from "react-bootstrap";
-import jobs from "./images/employee.png";
-import './Employee7.css'
-import candidate from "./images/directory.png";
-import { Link } from "react-router-dom";
-import setting from "./images/organization.png";
-import searchbar from "./images/search_black_24dp 1.png";
-import Header from "./Header";
-import ell from "./images/Ellipse 65.png"
-import ed from "./images/000.png"
-
-
-export default function Userdata() {
-    const [data, setdata] = useState(true);
-    const [opac, setopac] = useState("10");
- 
-    const showsearch = () => {
-      setopac("0.1");
-    };
-    const showicon = (e) => {
-      if (data) {
-        setdata(false);
-      } else {
-        setdata(true);
-        setopac("10");
-      }
-    };
-    return (
-        <div style={{overflow:'hidden', width:"100%"}}>
-        <Header />
-        <Container>
-              <div onClick={showsearch} className="Employee6-1">
-                <div className="Employee6-2" style={{ display: "flex" }}>
-                  <img
-                    src={searchbar}
-                    className="Employee6-3"
-                    style={{ opacity: opac }}
-                  />
+import React,{useState} from 'react'
+import Form from "react-bootstrap/Form";
+import Dropdown from "react-bootstrap/Dropdown";
+import vector from './images/Vector5.png'
+import add from './images/Additional Information.png'
+import {Link} from 'react-router-dom'
+import './Employee10.css'
+import dashblur from './images/dashblur.jpeg'
+function Employee() {
+  const [sdate, setDate] = useState();
+  const [back, setback] = useState("none");
   
-                  <input
-                    type="search"
-                    placeholder="Search"
-                    style={{ width: "60%", paddingLeft: "3%" }}
-                    className="Employee6-4"
-                    onClick={showicon}
-                  />
-                  <div className="Employee6-5">
-                    <Link to="/Recrutiment">
-                      <div>
-                        <img src={jobs} className="Employee6-5-icon" />
-                        <p
-                          style={{
-                            fontSize: "7px",
-                            marginLeft: "4%",
-                            textDecoration: "none",
-                            color:"#E0791B",
-                            fontFamily:"gorditas",
-                            textAlign:"center",
-                          }}
-                        >
-                          MANAGE <br /> EMPLOYEE
-                        </p>
-                      </div>
-                    </Link>
-                  </div>
-                  <div className="Employee6-5" style={{ backgroundColor: "#ffffff" }}>
-                    <Link to="/Candidate">
-                      <div style={{ display: "flex", flexDirection: "column" }}>
-                        <img src={candidate} className="Employee6-5-icon-1" />
-                        <p
-                          style={{
-                            fontSize: "7px",
-                            marginLeft: "4%",
-                            color: "#003666",
-                            fontFamily:"gorditas",
-                            textAlign:"center",
-                            textDecoration: "none",
-                          }}
-                        >
-                          DIRECTORY
-                        </p>
-                      </div>
-                    </Link>
-                  </div>
-                  <div className="Employee6-5" style={{ backgroundColor: "#ffffff" }}>
-                    <Link to="/Hire">
-                      <div style={{ display: "flex", flexDirection: "column" }}>
-                        <img src={setting} className="Employee6-5-icon-2" />
-                        <p
-                          style={{
-                            fontSize: "7px",
-                            color: "#003666",
-                            marginLeft: "-17%",
-                            width: "4rem",
-                            fontFamily:"gorditas",
-                            textAlign:"center",
-                            textDecoration: "none",
-                          }}
-                        >
-                          ORG CHART
-                        </p>
-                      </div>
-                    </Link>
-                  </div>
-                </div>
+  return (
+    <div className="Employee10">
+      <div className="Employee10-1">
+        <div>
+              <div className="Employee10-2">
+                            <p> 
+                            New Dependent
+                            </p>
               </div>
-              <div
-            style={{ display: "flex", flexDirection: "row", width: "200%", left:"-10%" }}
-            className="Employee6-6"
+              <hr  className='Employee10-3'/>
+        </div>
+        <div
+            className=" Employee9-13"
+            style={{ display: "flex", paddingTop: "4%", }}
           >
-            <div
-              className="rec-drop"
-              style={{ marginLeft: "1%", position: "relative", left: "0%" }}
+        <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
             >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee10-4">
+                  FIRST NAME <span className="required-sym"></span>
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                  
+                className="Employee10-5"
+                style={{ marginTop: "2%", paddingLeft:"5%" }}
+              />
+              </div>
+              </div>
               <div
-                className="Employee6-7"
-                style={{ border: "none", outline: "none" }}
-              >
-                <button style={{backgroundColor: " #FAFAFA", border: "none", color:"#003666"}} className="Employee6-8">
-                  General 
-                </button>
-              </div>
-            </div>
-            <div className="rec-drop" style={{ marginLeft: "-7%", position: "relative", left: "10%" }}>
-              <div className="Employee6-7">
-                <button style={{ backgroundColor: " #FAFAFA", color: "#E0791B ", border: "none",}}className="Employee6-8">
-                  Job
-                </button>
-              </div>
-            </div>
-            <div className="rec-drop" style={{ marginLeft: "1%", position: "relative", left: "12%" }}>
-              <div className="Employee6-7">
-                <button style={{backgroundColor: " #FAFAFA", color: "#003666", border: "none",}} className="Employee6-8">
-                 Payroll
-                </button>
-              </div>
-            </div>
-            <div className="rec-drop" style={{ marginLeft: "1%", position: "relative", left: "15%" }}>
-              <div className="Employee6-7">
-                <button style={{ backgroundColor: " #FAFAFA", color: "#003666", border: "none",}} className="Employee6-8">
-                  Documents
-                </button>
-              </div>
-            </div>
-            <div className="rec-drop" style={{ marginLeft: "1%", position: "relative", left: "17%" }}>
-              <div className="Employee6-7">
-                <button style={{backgroundColor: " #FAFAFA", color: "#003666",  border: "none",}} className="Employee6-8">
-                 Dependents
-                </button>
-              </div>
-            </div>
-            <div className="rec-drop"style={{ marginLeft: "1%", position: "relative", left: "20%" }}>
-              <div className="Employee6-7">
-                <button style={{ backgroundColor: " #FAFAFA",color: "#003666", border: "none", }} className="Employee6-8" >
-                  Accounts settings
-                </button>
-              </div>
-              </div>
-              </div>
-              </Container>
-             </div>
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            ><div style={{ display: "flex" }}>
+            <label for="exampleInputEmail1" className="Employee10-4">
+              LAST NAME <span className="required-sym"></span>
+            </label>
+            <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
               
-    )
+            className="Employee10-5"
+            style={{ marginTop: "2%", paddingLeft:"5%" }}
+          />
+          </div>
+          </div>
+          </div>
+          <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "-4%", }}
+          >
+          <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee10-4">
+                  DATE OF BIRTH
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                  
+                className="Employee10-5"
+                style={{ marginTop: "2%", paddingLeft:"5%" }}
+              />
+              </div>
+              </div>
+              <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            ><div style={{ display: "flex" }}>
+            <label for="exampleInputEmail1" className="Employee10-4">
+              GENDER
+            </label>
+            <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+              
+            className="Employee10-5"
+            style={{ marginTop: "2%", paddingLeft:"5%" }}
+          />
+          </div>
+          </div>
+          </div>
+          <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "-4%", }}
+          >
+          <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee10-4">
+                  RELATIONSHIP
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                  
+                className="Employee10-5"
+                style={{ marginTop: "2%", paddingLeft:"5%" }}
+              />
+              </div>
+              </div>
+              <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            ><div style={{ display: "flex" }}>
+            <label for="exampleInputEmail1" className="Employee10-4">
+              NATIONALITY 
+            </label>
+            <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+              
+            className="Employee10-5"
+            style={{ marginTop: "2%", paddingLeft:"5%" }}
+          />
+          </div>
+          </div>
+          </div>
+          <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "-4%", }}
+          >
+          <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee10-4">
+                  DISTRICT  
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                  
+                className="Employee10-5"
+                style={{ marginTop: "2%", paddingLeft:"5%" }}
+              />
+              </div>
+              </div>
+              <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            ><div style={{ display: "flex" }}>
+            <label for="exampleInputEmail1" className="Employee10-4">
+              CITY 
+            </label>
+            <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+              
+            className="Employee10-5"
+            style={{ marginTop: "2%", paddingLeft:"5%" }}
+          />
+          </div>
+          </div>
+          </div>
+          <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "-4%", }}
+          >
+          <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee10-4">
+                  PERSONAL ID  
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                  
+                className="Employee10-5"
+                style={{ marginTop: "2%", paddingLeft:"5%" }}
+              />
+              </div>
+              </div>
+              <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            ><div style={{ display: "flex" }}>
+            <label for="exampleInputEmail1" className="Employee10-4" style={{width: "38%"}}>
+              PERSONAL TAX ID
+            </label>
+            <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+              
+            className="Employee10-5"
+            style={{ marginTop: "2%", paddingLeft:"5%", marginleft: "0rem" }}
+          />
+          </div>
+          </div>
+          </div>
+          <div
+            className=" Employee9-13"
+            style={{ display: "flex", marginTop: "-4%", }}
+          >
+          <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            >
+              <div style={{ display: "flex" }}>
+                <label for="exampleInputEmail1" className="Employee10-4">
+                  EFFECTIVE START DATE
+                </label>
+                <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                  
+                className="Employee10-5"
+                style={{ marginTop: "2%", paddingLeft:"5%" }}
+              />
+              </div>
+              </div>
+              <div
+              class="form-group"
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                width: "100%",
+              }}
+            ><div style={{ display: "flex" }}>
+            <label for="exampleInputEmail1" className="Employee10-4">
+              EFFECTIVE END DATE
+            </label>
+            <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+              
+            className="Employee10-5"
+            style={{ marginTop: "2%", paddingLeft:"5%" }}
+          />
+          </div>
+          </div>
+          </div>  
+          <div className="Employee10-6" style={{ marginLeft: "24%", paddingBottom: "5%" }}>
+            <button className="  Employee10-7" style={{ borderRadius: "10px", border:"none" }}>
+              <Link
+                to=""
+                style={{ textDecoration: "none", color: "white", border:"none" }}
+              >
+                Save
+              </Link>
+            </button>
+            <button
+              className="  Employee10-7"
+              style={{ borderRadius: "10px", marginLeft: "5%", border:"none" }}
+            >
+              <Link
+                to=""
+                style={{ textDecoration: "none", color: "white", border:"none" }}
+              >
+                Cancel
+              </Link>
+            </button>
+          </div> 
+   </div>
+    </div>
+  )
 }
+export default Employee
