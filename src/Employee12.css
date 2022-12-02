@@ -1,0 +1,195 @@
+.Employee12-1 {
+    display: flex;
+    width: 140%;
+    margin-top: 1%;
+    margin-left: -10.5%;
+    border: 0px;
+}
+.Employee12-2 {
+    width: 100%;
+    margin-top: 1%;
+}
+.Employee12-3 {
+    position: relative;
+    left:3%;
+    top: 28%;
+    margin-left: 3%;
+    width: 24px;
+    height: 24px;
+    list-style-type: none;
+    list-style: none;
+    border-style: none;
+}
+.Employee12-4 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    outline: none;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+}
+.Employee12-5 {
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 50px;
+    height: 50px;
+    background: #003666;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.Employee12-5-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 0.5%;
+    margin-left: 1rem;
+}
+.Employee12-5-icon-1 {
+    width: 25px;
+    height: 25px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.Employee12-5-icon-2 {
+    width: 25px;
+    height: 25px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.Employee12-6 {
+    position: relative;
+    left: 2%;
+    padding-bottom: 5%;
+    margin-left: 3%;
+    margin-top: 2%;
+    height: max-content;
+    width: 100%;
+}
+.Employee12-7{
+    background-color: #F8F9FB !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    /* Heading */
+    box-shadow: none !important;
+    color: #1A3353 !important;
+    border: none;
+
+}
+.Employee12-7:hover{
+      background-color: #F8F9FB !important;
+        box-shadow: none !important;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        /* Heading */
+        color: #1A3353 !important;
+        border: none !important;
+}
+.Employee12-8{
+    box-sizing: border-box;
+    position: relative;
+    width: 20rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    height: 15rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.Employee12-8:hover{
+    background-color: #003666;
+}
+
+.Employee12-8:hover .Employee12-10{
+ color: white;
+}
+.Employee12-8:hover .Employee12-11{
+ color: white;
+}
+.Employee12-9{
+    width: 5rem;
+    margin-left: 7.5rem;
+    margin-top: 1rem;
+}
+.Employee12-10{
+    font-family: 'Gorditas';
+    font-size: 17px;
+    margin-left: 8.3rem;
+    margin-top: 0.5rem;
+    color: #003666;
+}
+
+.Employee12-12{
+    background-color: #003666;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.Employee12-11{
+    font-family: 'inter';
+    font-size: 13px;
+    margin-left: 6.8rem;
+    color: #003666;
+}
+
+.Employee12-8:hover .icons_12{
+    color: #003666 !important;
+}
+.icons_12{
+    margin-top: 3% !important;
+    
+    color: #ffffff;
+}
+
+.Employee12-8:hover .Employee12-12{
+    background-color: #ffffff !important;
+}
+.employee__line{
+    margin-top: 2%;
+    width: 100%;
+    border-bottom: 1px solid #003666;
+}
+
+.Employee12-8:hover .employee__line{
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+}
+
+.employee__p p{
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+text-transform: capitalize;
+
+color: #003666;
+}
+
+
+.Employee12-8:hover .employee__p p{
+    color: #FFFFFF;
+}

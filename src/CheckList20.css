@@ -1,0 +1,160 @@
+.checklist__20_2{
+    height: max-content;
+    width: 28%;
+    background: #003666;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+
+.checklist__20_1{
+    margin-left: 3%;
+}
+
+.checklist__20_3{
+    text-align: center;
+
+}
+.checklist__20_3 p{
+    font-family: 'Gorditas';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+
+color: #E0791B;
+
+}
+
+.checklist__20_4{
+    text-align: center;
+}
+.checklist__20_4 p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.checklist__20_4_1 p{
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 17px;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+
+color: #003666;
+}
+
+
+.checklist__timeoff{
+      width: 15rem !important;
+      opacity: 0.9;
+}
+.checklist__20_4_2 p{
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 17px;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+
+color: #003666;
+}
+
+.checklist__20_5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.checklist__20_btn{
+    width: 4rem;
+    height: 2rem;
+   background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+    text-align: center;
+    
+}
+
+
+.checklist__20_btn p{
+    padding: 5px 5px 5px 5px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-decoration: none;
+color: #003666;
+}
+
+
+.checklist__20_2_1{
+     height: max-content;
+    width: 31%;
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+
+}
+
+.checklist__20_2_2{
+     height: max-content;
+    width: 31%;
+    background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+
+}
+.checklist__20_2_2:hover{
+    background-color: #003666;
+}
+
+
+.checklist__20_2_1:hover{
+    background-color: #003666;
+}
+
+.checklist__20_2_1:hover .checklist__20_data_1_1 p{
+    color: #FAFAFA;
+}
+
+.checklist__20_2_1:hover .checklist__20_data_1_2 p{
+    color: #FAFAFA;
+}
+
+.checklist__20_1:hover .checklist__20_data_1_3 p{
+    color: #FAFAFA;
+}
+.checklist__20_1:hover .checklist__20_data_1_4 p{
+    color: #FAFAFA;
+}
+.checklist__20_1:hover .checklist__20_data_1_5 p{
+    color: #FAFAFA;
+}
+.checklist__20_1:hover .checklist__20_data_1_6 p{
+    color: #FAFAFA;
+}
+.checklist__20_1:hover .checklist__20_data_1_7 p{
+    color: #FAFAFA;
+}
+.checklist__20_1:hover .checklist__20_data_1_8 p{
+    color: #FAFAFA;
+}
+.checklist__20_1:hover .checklist__20_data_1_9 p{
+    color: #FAFAFA;
+}

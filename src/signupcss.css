@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Nuosu+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nuosu+SIL&display=swap');
+
+.mt-3 {
+    position: absolute;
+    width: 100%;
+    top: 8%;
+}
+.check{
+    position: relative;
+    top: 10%;
+}
+.mt-4 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.top{
+    height: 110vh !important;
+    
+}
+.mt5 {
+    margin-top: 2%;
+    width: 100%;
+   
+}
+.sign-up-p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.02em;
+
+color: #003666;
+}
+
+.sign-up{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 22px;
+/* identical to box height, or 55% */
+
+letter-spacing: -0.02em;
+
+color: #003666;
+}
+
+:root {
+	--PhoneInput-color--focus: #FFFFFF;
+	--PhoneInputInternationalIconPhone-opacity: 0.8;
+	--PhoneInputInternationalIconGlobe-opacity: 0.65;
+	--PhoneInputCountrySelect-marginRight: 0.35em;
+	--PhoneInputCountrySelectArrow-width: 0.3em;
+	--PhoneInputCountrySelectArrow-marginLeft: var(--PhoneInputCountrySelect-marginRight);
+	--PhoneInputCountrySelectArrow-borderWidth: 1px;
+	--PhoneInputCountrySelectArrow-opacity: 0.45;
+	--PhoneInputCountrySelectArrow-color: currentColor;
+	--PhoneInputCountrySelectArrow-color--focus: var(--PhoneInput-color--focus);
+	--PhoneInputCountrySelectArrow-transform: rotate(45deg);
+	--PhoneInputCountryFlag-aspectRatio: 1.5;
+	--PhoneInputCountryFlag-height: 1em;
+	--PhoneInputCountryFlag-borderWidth: 1px;
+	--PhoneInputCountryFlag-borderColor: none;
+	--PhoneInputCountryFlag-borderColor--focus: var(--PhoneInput-color--focus);
+	--PhoneInputCountryFlag-backgroundColor--loading: none;
+}
+.PhoneInput {
+	/* This is done to stretch the contents of this component. */
+	display: flex;
+	align-items: center;
+    border-color:red !important;
+}
+.PhoneInputInput {
+	/* The phone number input stretches to fill all empty space */
+	flex: 1;
+	/* The phone number input should shrink
+	   to make room for the extension input */
+       border: none !important;
+       border-bottom: 2px solid rgb(194, 186, 186) !important;
+}
+
+.PhoneInputInput:focus{
+
+
+    outline: none !important;
+   border-color: 1px solid #003666 !important;
+
+}
+.PhoneInput:focus{
+   border-color: red;
+   outline: none !important;
+}
+
+.mt-5:focus{
+    color: #BBBBBF !important;
+    outline: none !important;
+    box-sizing: none !important;
+    border-color: #ffffff !important;
+}
+.btn {
+    border-radius: 10px;
+    margin-top: 10%;
+    background-color: #003666;
+}
+
+
+.logo-1 {
+    float: right;
+    height: 5rem;
+    
+  
+}
+.mt-7 {
+    display: flex;
+    
+    width: 100%;
+}
+
+.mt {
+    align-items: center;
+   
+    justify-content: center;
+    margin-left: 3%;
+}
+h1 span {
+    color: #E0791B;
+    
+}
+p span{
+     color: #E0791B;
+}
+.mt-6 {
+    margin-top: 8%;
+    display: flex;
+    margin-right: 1%;
+    margin-left: 6%;
+    z-index: 1000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+
+    color: #BBBBBF;
+}
+
+.mt-6 p span{
+    
+    color:#003666;
+}
+.cbs{
+    position: relative;
+    top: -0.1rem;
+}
+
+.input{
+    top: 2%;
+    width: 100%;
+}
+.pass-wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top: 8%;
+}
+.changefocus input:focus{
+    background-color: #003666 !important;
+}
+/*input[type=checkbox]{
+    background-color: #003666 !important;
+}
+input[type=checkbox] {
+          accent-color: white;
+}*/
+.form-check-input:checked{
+    background-color: #003666;
+}
+
+i {
+  position: absolute;
+  top: 38%;
+  right: 0;
+}

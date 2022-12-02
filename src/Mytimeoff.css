@@ -1,0 +1,252 @@
+    .time--off{
+    border: none !important;
+    margin-top: 0%;
+    margin-left: 3% !important;
+    width: 50px;
+    height: 53px !important;
+}
+.time____p{
+    text-decoration: none !important;
+    list-style-type: none !important;
+    list-style: none !important;
+}
+
+.timeoff-icon-1 {
+
+    width: 30px;
+    height: 30px;
+    margin-top: 0%;
+    margin-left: 20%;
+}
+
+.timeoffrecsea {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.25);
+    border-radius: 10px;    
+}
+
+.timeoff-center{
+    align-items: center !important;
+    text-align: center !important;
+    margin-left: 40% !important;
+    margin-top: 2%;
+
+}
+
+.timeoff-dropdowns{
+    width: 100%;
+     display: flex;
+    
+     margin-left: 2.3%;
+     flex-wrap: wrap;
+}
+
+.timeoff-dropdowns-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.timeoff-date{
+padding: 8px 12px;
+gap: 10px;
+background: #FAFAFA;
+border: 1px solid #EEEEEE;
+border-radius: 10px;
+}
+.iccc{
+    position: relative;
+    margin-left: 3rem;
+
+}
+.timeoff-dateinput{
+    width: 100%;
+    height: 100%;
+    border: none !important;
+    background: #FAFAFA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 1.3rem;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #455560 !important;
+}
+
+.timeoff-dateinput:focus{
+    outline: none !important;
+    color: #455560 !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url('./images/Mask\ group.png');
+    height: 20px;
+    width: 20px;
+   
+    -webkit-appearance: none;
+}
+
+
+.timeoff-dropdwons-padding{
+                       
+                    width: 10rem;
+                    padding-left: 3% !important;
+                    height: 40px !important;
+}
+
+
+.Dropdown.Item:focus{
+    background-color: white !important;
+}
+
+.dropdown__back:focus{
+    background-color: white !important;
+}
+.myrequest{
+    box-sizing: border-box;
+width: 204px;
+height: 48px;
+background: #003666;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+a.dropdown-item:focus{
+    background: white !important;
+}
+.myrequest p{
+    margin-top: 6%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: white;
+}
+
+.timeoff-center-1{
+    display: flex;
+}
+
+
+.timeoff-data{
+    box-sizing: border-box;
+    margin-left: 2.3%;
+width: 92%;
+margin-top: 3%;
+height: max-content;
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+
+.timeoff-heading{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     margin-top: 1% !important;
+}
+.timeoff-head-1{
+    box-sizing: border-box;
+ padding-top: 1.3%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 10%;
+height: 2.3rem !important;
+background: #FAFAFA;
+border: 1px solid #EEEEEE;
+border-radius: 10px;
+}
+
+.timeoff-head-1 p{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* Body */
+
+color: #455560;
+
+}
+
+
+.timeoff-line{
+    
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.timeoff-date--1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.timeoff-data-2{
+    display: flex;
+    flex-direction: row;
+   
+}
+.timeoff-data-2-1{
+    display: flex;
+    flex-direction: row;
+   
+}
+.timeoff-data-2 p{
+      margin-left: 3.5%;
+      margin-top: 1%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #000000;
+}
+
+.timeoff-data-2-1 p{
+     margin-left: 3.5%;
+      margin-top: 1%; 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #000000;
+}
+.timeoff-line-2{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0%;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.timeoff-upload >input{
+    height: 10px !important;
+    width: 10px !important;
+      display: none;
+}

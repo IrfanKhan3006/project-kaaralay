@@ -1,0 +1,73 @@
+.holiday_main{
+height: max-content;
+width: 35%;
+background: #FFFFFF;
+align-items: center;
+justify-content:center;
+text-align: center;
+border: 1px solid rgba(0, 0, 0, 0.25);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+margin-left: 30%;
+margin-top: 10%;
+
+}
+
+.delete_content{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+margin-top: 3%;
+margin-left: 10%;
+color: #C4C4C4;
+}
+
+.holiday_head{
+    align-items: center;
+
+    justify-content: center;
+}
+.holiday_head p{
+margin-top: 2%;
+font-family: 'Gorditas';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #E0791B;
+
+}
+.asa{
+    width: 100%;
+    background-Color:#f9f9f9;
+    font-Family: Inter;
+     opacity: 0.5;
+}
+
+.holiday_line{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.timeoff-dateinput{
+    padding-left: -30px !important;
+    border-radius: 10px;
+}
+
+.checklist__para p{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+
+color: rgba(238, 238, 238, 0.38);
+margin-left: 4%;
+margin-top: 4%;
+mix-blend-mode: exclusion;
+align-items: start !important;
+text-align: start !important;
+}

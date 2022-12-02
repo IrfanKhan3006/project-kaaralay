@@ -1,0 +1,166 @@
+.newpro-1{
+    height: max-content;
+    width: 70%;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-top: 2%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.profile--new{
+    background-color: #F8F9FB;
+    border: none !important;
+    color: black;
+    opacity:0.5;
+}
+.phoneInput_1{
+    border: none !important;
+    border-bottom: 1px solid black;
+    outline: none !important;
+}
+
+
+
+.dropdown-item:focus{
+   
+    border: none !important;
+    box-shadow: none !important;
+}
+.profile--new:hover{
+      background-color: #F8F9FB !important;
+    border: none !important;
+    color: black !important;
+    opacity:0.5 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.profile--new:focus{
+     background-color: #F8F9FB !important;
+    border: none !important;
+    color: black !important;
+    opacity:0.5 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.newpro-2{
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.newpro-3{
+    border: 0.5px solid #C4C4C4;
+    width: 92%;
+    margin-left: 3%;
+}
+.newpro-4{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.bas-data{
+    display: flex;
+    flex-direction: row;
+    
+}
+.jaabtitle{
+    position: relative;
+  width: max-content;
+  height: 8px;
+  font-family: 'Gorditas';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.basi-jobtitle{
+    position: relative;
+    width: max-content;
+    height: 8px;
+    font-family: 'Gorditas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    /* identical to box height */
+    margin-top: 1%;
+    color: #000000;
+ 
+}
+.required-sym::after{
+    content:" *"; 
+  color: #e32;
+  position: relative; 
+  font-size: 20px;
+}
+.dropdown-menu{
+    position: relative;
+}
+.Uploadim{
+    width: 100%;
+    position: absolute;
+    height: max-content;
+    background-image: url('./images/Recruitment jobs page 3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.bas-form-enter-1{
+    margin-top: 1%;
+    width: 90%;
+    height: 35px;
+    border: none;
+    opacity: 0.5;
+    background: #F8F9FB;
+    border-radius: 13px;
+}
+.rec-tog-date{
+    width: 105%;
+  position: relative;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  padding-left: 1%;
+  background: #F8F9FB;
+  border-radius: 13px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  height: 38px;
+  letter-spacing: 0.2px;
+}
+.TTT{
+    position: inherit;
+    margin: 1em -1em;
+}
+.reject-btn{
+    border: 0px;
+}
+.newpro-pp{
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  
+  color: #000000;
+}
+.textarea-pp{
+
+    width: 95%;
+    height: 35px;
+    margin-top: 1%;
+    position: inherit;
+    background: #F8F9FB;
+    border-radius: 13px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.tst{
+    font-size: small;
+}

@@ -1,0 +1,53 @@
+.edit__p{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+align-items: flex-start !important;
+justify-content: start !important;
+color: #000000;
+
+}
+
+.policy__dropdown{
+   background: #FAFAFA !important;
+border: 1px solid #EEEEEE !important;
+border-radius: 10px !important;
+}
+
+.policy__box{
+    padding: 5px auto;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    text-align: start !important;
+      background: #F8F9FB;
+border-radius: 15px;
+width: 92%;
+height: max-content;
+
+margin-left: 4.3%;
+}
+
+.policy__p_1
+{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #BBBBBF;
+}
+
+.policy__p_2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+align-items: flex-start  !important;
+color: #000000;
+}

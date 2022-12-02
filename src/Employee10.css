@@ -1,0 +1,83 @@
+.Employee10{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    background-image: url('./images/Employees 9.png');
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+.Employee10-1{
+    height: max-content;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.Employee10-2{
+    margin-left: 37%;
+    margin-top: 2%;
+    color: #E0791B;
+    font-family: 'Gorditas';
+    font-size: 24px;
+}
+.Employee10-3{
+    width: 92%;
+    margin-left: 2rem;
+}
+.Employee10-4{
+    position: relative;
+    width: 31%;
+    height: 8px;
+    outline: none;
+    font-family: 'Gorditas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    left: 0rem;
+    line-height: 29px;
+    /* identical to box height */
+    margin-top: 2%;
+    color: #000000;
+}
+.required-sym::after{
+    content:" *"; 
+    color: #e32;
+    position: relative; 
+    font-size: 20px;
+}
+.Employee10-5{
+    margin: 2rem;
+    margin-left: 2.5rem;
+    width: 50%;
+    height: 35px;
+    outline: none;
+    border: none;
+    background: #F8F9FB;
+    border-radius: 13px;
+}
+.Employee10-6{
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.Employee10-7 {
+    width:10rem;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    /* identical to box height */
+    background: #003666;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    margin-left: 3%;
+}
+.Employee10-8{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 5%;
+}

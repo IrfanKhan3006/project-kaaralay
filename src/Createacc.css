@@ -1,0 +1,44 @@
+.psd-div-acc{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 25%;
+    font-family: 'Inter';
+    font-family: 'Nuosu SIL', serif;
+}
+.kar{
+    color: #E0791B;
+}
+.textfield-acc{
+    width: 67%;
+    font-family: 'Inter';
+    font-family: 'Nuosu SIL', serif;
+}
+.btn--2 {
+    width: 30%;
+    background-color: #003666;
+    margin-top: 5%;
+    border: 0px;
+    border-radius: 10px;
+}
+.btn--2:hover{
+    background-color: #003666;
+}
+.btn--2:focus{
+    background-color: #003666;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.back{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.bk-lg {
+    margin-left: 45%;
+}
+.bk-lg-1 {
+    margin-Left: 5%;
+    text-decoration: none;
+}

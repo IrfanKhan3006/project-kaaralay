@@ -1,0 +1,233 @@
+@media screen and (max-width: 1300) {
+    .eva-2{
+      width: 92%;
+    }
+    .eva-4{
+      margin-top: 3%;
+      margin-left: 2%;
+    }
+    .eva-5{
+          margin-left: 0%;
+          height:45px;
+          width:45px;
+          
+          
+    }
+    }
+    
+.off-canvas{
+    overflow: auto;
+      width: 65%;
+      background-color: #003666;
+      margin-top: 20px;
+  
+}
+.pro-1{
+    position: absolute;
+   
+    width: 100%;
+}
+.pro-2{
+    position: relative;
+    background-color: #003666;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.pro-img{
+    margin-left: 6%;
+    margin-top: 1%;
+}
+.pro-det{
+    display: flex;
+   flex-direction: column;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+  margin-top: 2%;
+  margin-left: 5%;
+  color: #FFFFFF;
+}
+.pro-btn{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.rec-tog {
+    height:fit-content;
+    margin-top: 2%;
+           font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+.pro-4{
+    margin-top: 11%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.pro-5{
+    position: relative;
+    width: 15%;
+    background-color: #003666;
+    height: 100%;
+    margin-top: 5%;
+   
+}
+.pro-ul{
+    display: flex;
+    flex-direction: column;
+     position: relative;
+     
+}
+.pro-li-1{
+    position: relative;
+     flex-direction: end;
+     justify-content: flex-end;
+     text-decoration: none;
+     list-style: none;
+     color: white;
+     padding-top: 8%; 
+     margin-top: 30%;
+      height: 3rem;
+     text-align: center;
+     justify-content: center;
+}
+.pro-li-1{
+    position: relative;
+    
+     list-style: none;
+     color: white;
+    
+     padding-top: 8%; 
+     margin-top: 30%;
+      height: 3rem;
+     
+}
+.pro-6{
+    height: max-content;
+    width: 80%;
+    margin-top: 5%;
+    background-color: white;
+}
+.eva-1{
+    height: 100vh;
+}
+.eva-2{
+    box-sizing: border-box;
+  margin-top: 5%;
+  margin-left: 5%;
+  position: absolute;
+  width: 85%;
+  height: 113px;
+  
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  
+}
+.eva-4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+   margin-left: 1%;
+  
+}
+.eva-5{
+    height: 50px;
+    width: 50px;
+}
+.eva-3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+margin-right: 20%;
+
+line-height: 29px;
+/* identical to box height */
+color: #000000;
+}
+.eva-31{
+    position: inherit;
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  margin-left: -15%;
+  
+  line-height: 29px;
+  /* identical to box height */
+  color: #000000;
+}
+.eva-7{
+    position: relative;
+    margin-top: 5%;
+    height: 75px;
+    width: 100%;
+    background: #FFFFFF;
+    
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.eva-line{
+    margin-top: 5%;
+     border: 0.5px solid #c4c4c4;
+}
+.eva-name{
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 1.5%;
+    line-height: 24px;
+    /* identical to box height */
+    margin-top: 5%;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    
+    color: #003666;
+}
+.eva-9{
+    background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  width: 100%;
+}
+.eva-10{
+    height: 45px;
+    width: 45px;
+}
+.eva-12 p{
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    
+    color: #BBBBBF;
+    opacity: 0.9;
+}
+.soc-8{
+    position: relative;
+      top: 68%;
+     left: -60%;
+}
+
